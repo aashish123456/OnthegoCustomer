@@ -1,0 +1,1388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BE2017549E0E500EC392FA3DB23A3F /* NSString+Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A8D48E077922A8BD40D03D25F40689 /* NSString+Branch.m */; };
+		023BA68E912FA2F27F231AF18D3586B3 /* BNCDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9975D017511AA23B938657BDDC8216 /* BNCDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036B0508EAC4DA69F7A7E9290A0D77D2 /* Pods-OnthegoCustomer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945D9FFC153F40FFA539C73F166E6034 /* Pods-OnthegoCustomer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07062BFF44E7B28F9BD7AE51DC5D192A /* BNCEncodingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4121DDAC54E8D276530A4D969BAA0E /* BNCEncodingUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B68169A7817076ED9C7614E9B2FC6E1 /* BranchLoadRewardsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8498E22795398FA76B169C6917FC3C /* BranchLoadRewardsRequest.m */; };
+		0C45DC71A1B509EA19F138082D4FE578 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C32BB45314806BC624B1EAB57EBF8F3 /* SafariServices.framework */; };
+		0C915F8C67A7695A4E55D6FF3D112621 /* Answers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE57A009B0D7F79C574FCA4F956C7FF /* Answers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0D81BA3613E3DCE04B2A0933EC808083 /* BNCApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = CABDC4A2A16B76705412B68A1961165A /* BNCApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10DFF5B4AB1B770DDF4EFE6B00A4A3A0 /* BranchSetIdentityRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3F31432872E1670254F675ED413DD2 /* BranchSetIdentityRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C9CDCEBF11E0BCC0A8B1B6BF16BC71 /* BranchEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5048139C42130450633EC91E31DBC5 /* BranchEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163D92068677D20DBDC027D1DDFE6D7A /* Pods-OnthegoCustomer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E38C436F1D53413CA2ADB6E041017 /* Pods-OnthegoCustomer-dummy.m */; };
+		184A9A01207AB18D717A544E31191F0F /* BranchDeepLinkingController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5006E3A554A6D117AC2C99F06458E81D /* BranchDeepLinkingController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6FD2ADC469E4FEC62A01553CEF01E8 /* BranchUserCompletedActionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BE95ACB6D333BA21E1BF1A9E8C63B3 /* BranchUserCompletedActionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DF1D8E7061D190272E8E014CA4064D6 /* BNCDeepLinkViewControllerInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB2B86102018C16C7FFB1B37B61818 /* BNCDeepLinkViewControllerInstance.m */; };
+		1F6FAE3912838827D86406682AF5CD74 /* BranchShortUrlSyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1FC95081849666A7A30A3388DBDDD2 /* BranchShortUrlSyncRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA362AB805D33641843562E1B94B2D5 /* BranchLinkProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F97746096B379E185D523E062163F04F /* BranchLinkProperties.m */; };
+		24C37C341ED61E90779039EE4B4BE94D /* BNCFabricAnswers.h in Headers */ = {isa = PBXBuildFile; fileRef = A616D39D5B0A7309D5959D136F0AFC41 /* BNCFabricAnswers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EA46FE7F844942C9B3BD0C2186584E /* Fabric.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9B27856388CA071BB2C2B5C9A8A8F0 /* Fabric.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2512AAAAF1BBCA96660DB50EDA8E64CA /* BranchRegisterViewRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDFB685A162CCFC94D9426E8EE55D9B /* BranchRegisterViewRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255ED110314764E7B6A1E78BA1BE7D0B /* BranchCloseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3754A2A019860B15211F2342EFF03D88 /* BranchCloseRequest.m */; };
+		2B45BF4B6288E1C35B56803EDDA0E952 /* BNCStrongMatchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E21CF03F23DE7CD0A0CDD6C513B4FDFD /* BNCStrongMatchHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3890E725E05AA9C988E78DFE63F391 /* BNCURLBlackList.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AB78609A0AD9CB79518C7C260E5500 /* BNCURLBlackList.m */; };
+		315716EA78D7D82DBF77F4B978E5A1FD /* BNCLinkCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 790E36E041D020D786ACF5A75C4BA66A /* BNCLinkCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BBE99D74FE9E76D1F9BF39F3CEEE73 /* BNCCrashlyticsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FA825EB91724B2DAF27E00EE25B8F2 /* BNCCrashlyticsWrapper.m */; };
+		32CE9ECD664C84772B582151EA7009E8 /* BNCServerRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6043527C10446FFD2D7A8324A296D8 /* BNCServerRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3326C6B2BF30FD17D01490AF16AAE228 /* BranchActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 145232A462A0CE2AADF8DD1C0A1BD993 /* BranchActivityItemProvider.m */; };
+		332AC2E179A645C7D64F30E0939F1F23 /* Branch+Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9041FFD6D29C971BF432D3D63A44E216 /* Branch+Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F70D4764D25B298F11CD8FB0D50F0E /* BranchEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D5C9B1369AA8BBA09DFF6DDFDC5063 /* BranchEvent.m */; };
+		360F8965A175FDDF25B85064EB6A7C57 /* BNCContentDiscoveryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBA26A18C5966F7D1011345C0015710 /* BNCContentDiscoveryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CDEF8E17F2ACC66D93684EA8217ECE /* BNCLinkData.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4998553C167C2663785C349D0F8A5C /* BNCLinkData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39843304ABA775CF285007559A4A8F24 /* BranchShortUrlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34943DCD35BE581CC168EA430C2EB74C /* BranchShortUrlRequest.m */; };
+		3BE0225C62A6EA4A11D1101353E9A3E8 /* BNCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = FF11C80BC83DA155444F7C445F7D62D2 /* BNCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6FF2F91D40189DF1AC52F6C4996BC6 /* BranchRegisterViewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EEC39CCA40E23735C505342542199C /* BranchRegisterViewRequest.m */; };
+		3F05C05F0D2E60350233437F5F565559 /* Fabric+FABKits.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6FFF24A559446CCAB0257FDFC6755F /* Fabric+FABKits.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3FC289488FF6182C75B02541B6191836 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784A23147BE93075CBE4257D2F0DC58 /* AdSupport.framework */; };
+		40313DA7CEAEABD1FE1C8291BC2DC12A /* BNCFabricAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F706E7068CAFEF34771D016D83AB76 /* BNCFabricAnswers.m */; };
+		427FA5EDA2374AFBC4DEC819183F5BB4 /* BranchShareLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 241EC90794C6CAFD492D574D4CF13DBB /* BranchShareLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F8A96E62CE5402A4BBD535D30F7F38 /* BranchOpenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BB5C235ACC47F1A5EB8C46E8B17695 /* BranchOpenRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		454CA46B09C9582F8D60FEFD571E4C7F /* BranchLoadRewardsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 60722F8356CFEFC91DC4DAB24FA09EC0 /* BranchLoadRewardsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47773D2BD584CD7933AB8315D06BD6E8 /* BNCServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E1EC67F28F7232F6B46B3ECC9DCCD3 /* BNCServerResponse.m */; };
+		4796C43B3F41B68CE0FC5B1DB9F41A68 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F34AE0E19313E954D3B943ED9C5E99 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		4C280C18A961F8958FE014C6900F068F /* BNCCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BC9117FCE4A7C6507A491080730DDE /* BNCCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506EFDBA36609B14F2E7360E88D86610 /* BNCURLBlackList.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AB2750F8FC3513B4D198B6D36FD577 /* BNCURLBlackList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		545136170A46A2662F84E522ED4C99BD /* BranchCSSearchableItemAttributeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB199376723F9A24BC1D4C87B870AAB /* BranchCSSearchableItemAttributeSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5908617A723CF93E6EC06593239472D9 /* BNCCommerceEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F03C322F92C69F3F6D17835410A517F /* BNCCommerceEvent.m */; };
+		5AED83AFE8A86567856938BE0E896D0E /* BNCLinkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB0D03B40DB925A8EC51F8FDD6331A /* BNCLinkCache.m */; };
+		5C390E44BFD0C0847B38B08216669046 /* BNCCrashlyticsWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F952A740482F46ADAB9795D9CBCE922 /* BNCCrashlyticsWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F43C4CF091F0F8447182861F54F3EF5 /* BNCNetworkService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C88E9307C237B62672905317723F5AD /* BNCNetworkService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6082B6EF2A798DA48DD711BE461DC842 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E4325E03952EA118871C9227DE42D /* SkyFloatingLabelTextField.swift */; };
+		628104915CAC16595BF4F53F4B0D9082 /* FABAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = A56C5858583D4489641E9B27C47257EB /* FABAttributes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6575F6F5189C0FC57400E5B7772A389F /* BranchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB863F9ACABF8965C75326EBCD95599 /* BranchView.m */; };
+		65B60AD5295E49C7CCFD02E8F3D8DE60 /* BranchUserCompletedActionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F439B6DD776BF6B9D9F7D1FF30E177 /* BranchUserCompletedActionRequest.m */; };
+		6618393E4424716465FF39953507548B /* BranchConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5917B01F72F9DB617AC6546841C55E32 /* BranchConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD21A4F45E610F7EA050637FD06CC20 /* BNCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D2695C714E07216E826FD13BC18B8F87 /* BNCDeviceInfo.m */; };
+		6DB403BF82FACCA1512416E83A6A76FF /* BNCLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE14A33DC26C9452C58E04304F1340A /* BNCLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA500D028342091F4FB677BAC5F5607 /* BranchViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71888B99BA7FFCF32D7055A78FE5F4 /* BranchViewHandler.m */; };
+		6EB0AA15D26793E4F723D8F73F978D15 /* BNCConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7097CA5A6ECE14CC489C41D1C752 /* BNCConfig.m */; };
+		6FB135D37BFD5CC2834B030297825DD0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CE85187F0E24E80433398597C96F6C /* MobileCoreServices.framework */; };
+		7343608671BBF4A6DDF2471460E6AAF1 /* BranchLinkProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F71AA3BF25EFEDDC71F299CF0162132 /* BranchLinkProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736EF5416B4B57EED82BA04769DC29C5 /* NSMutableDictionary+Branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0E5EDBC1F37E978D4D63AA3B253234 /* NSMutableDictionary+Branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B7A6F760AAC5B63E2CF5622F9E9C1C /* BNCDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D76CFE7D954401B3FD84DBD44E09A68 /* BNCDebug.m */; };
+		740C2C880707E329D26D91D3FA3B9AB0 /* BNCServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921CCF60805D6342F6A15FA5D60AA31 /* BNCServerRequest.m */; };
+		761A1D99EBB20F0A04D9088139742726 /* NSString+Branch.h in Headers */ = {isa = PBXBuildFile; fileRef = F65B972A1595CC232F19651646E5C178 /* NSString+Branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		761B15089C336F3D34454547C38B6C94 /* BNCCommerceEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5665D8824810CD518F411F843D5961AC /* BNCCommerceEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		783AB5270E0A451A388ABFEAE1DA644C /* BNCThreads.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83E18956EFEFC21771896F58035D3A /* BNCThreads.m */; };
+		7BD15BC39494D577F10A02C6D27A6978 /* BNCServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4AA29BFFD9128506756355F7782E0 /* BNCServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5EA1BBC475D4103596EE59E62DF6CC /* BNCServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DDF07213E3262A5D2FBCD4A6E4BFC9 /* BNCServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C8B9B1971B5A552CACAA9F9F6D6BBCE /* BNCServerRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3BBAB729C62005D3622CE4DC355D19 /* BNCServerRequestQueue.m */; };
+		7D98D11FCCD984DE5E204F678F26D225 /* BNCPreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FEA96A63941709BA7810BA00BAC88B /* BNCPreferenceHelper.m */; };
+		7E47F2951EE880C8E41027D98284D4EE /* BNCPreferenceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E541FD2FEAB07494581517EEDC6A4C7 /* BNCPreferenceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F48E5B44E8F0589F0ED94EE77EC603C /* NSMutableDictionary+Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32255C9F5908ADD7773B6B254E99DF /* NSMutableDictionary+Branch.m */; };
+		7F4D53CC3C09B662946AB4CE7A9B9CAD /* BranchSetIdentityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A77F24EBDAF529C135C00196D2BCA4 /* BranchSetIdentityRequest.m */; };
+		810282EAE86468ABF3DD437EEDBDCF89 /* UIViewController+Branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F88DBA66FC5A88908AD82852BF4BF81 /* UIViewController+Branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8134F5C7C48EB9A7B63FFEBF8DD5E04A /* BNCSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE691052D1ACFFEE150160E6A3222CC /* BNCSystemObserver.m */; };
+		836B4DC72B7928F7F18C6DCC8816D901 /* BNCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1460557CABBE9668BB9EE84563BA30DF /* BNCLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836E5FCAFF67CECF01CE0F94955C3A77 /* BranchCreditHistoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510F14E2AD2B737AE45D9B0E35D26D9 /* BranchCreditHistoryRequest.m */; };
+		83824C03DE9F04C1E91E50A8528C9623 /* BNCNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D276CABA329BDC68055C5BAE6402DF4 /* BNCNetworkService.m */; };
+		8942D4665854F8A54B8153ED6EC6DAED /* BranchShareLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BC032E5B87C749D2E472ADF88F525 /* BranchShareLink.m */; };
+		8A93320F18F1CE9A7404445298F9611E /* BNCStrongMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 512359F5FD2056F223DB2BC79B24830A /* BNCStrongMatchHelper.m */; };
+		8B1C7A2ECB3F220593169E697B8403D5 /* BNCServerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE052CDCD65CB16B9F82747AD2C42CC /* BNCServerInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C78C1B1ED5671EF5796296884A1B4DA /* BNCKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD385D1E362AB25EA918C2B419C138C /* BNCKeyChain.m */; };
+		91734C6DF6BEFF7D8B31EBE9323F6B17 /* BranchConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CED7E6A6FCD9007AE1582AB13C9445AF /* BranchConstants.m */; };
+		942EFF845184AC96BF93118993443DCD /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBBBDA9FB719C174968CCBCD90B5CF /* SkyFloatingLabelTextField-dummy.m */; };
+		98C09ACD60629E1C147E6E8EBA4E4FF8 /* Branch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 377E6D513F667D7EE6E9BCE2799E12A4 /* Branch-dummy.m */; };
+		98C324667AD986D56CFC7651B1284127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66DA67EBD9BEBC4F33F716C4AECB089 /* Foundation.framework */; };
+		9BAB24A1C86F62056204AE94D41BBDC0 /* BNCFieldDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7006E77D4FCB87DA8CACAE42872773F7 /* BNCFieldDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C62853B239A3114A7CCC11184779C3B /* BranchRedeemRewardsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB9F505A61C470FA59CE40D25393645 /* BranchRedeemRewardsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2DD55C6E83781A9A8582C5DCFB2D15 /* BranchContentDiscoverer.h in Headers */ = {isa = PBXBuildFile; fileRef = 118C48C45F21251623608DA4727564F3 /* BranchContentDiscoverer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5FD298E6B01224DB6961DBEB1EFF4F /* BNCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F89F3E7F1DB999CE2E9D02D68993F /* BNCLog.m */; };
+		A323CEABBF1510E7E3BF779E8816B227 /* BNCServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 240043EF574986DD18B9CD91962BFD08 /* BNCServerInterface.m */; };
+		A38E6AE2C78772365BBA19A79AB081B8 /* BranchSpotlightUrlRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 407546DF3A9E8A3EB09A26FB6CFFE36F /* BranchSpotlightUrlRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A394407047C0B2E3C67A7914B9F3AB70 /* Branch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C77714D5CE83D1D48F372DAC3A81D11 /* Branch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B3B9B9E2D727A0CB3337FB8E617F50 /* BNCContentDiscoveryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF36BB7A320DE7143A907CCD222924 /* BNCContentDiscoveryManager.m */; };
+		AA98A257795EA58348F1D932C428A242 /* BranchViewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCE6856A3DC3887EC0E29E0B06CC218 /* BranchViewHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF8833398EBB60F68C43BA9FB554733 /* BranchOpenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6821D913EF97F9554A6DEB53235231 /* BranchOpenRequest.m */; };
+		AF9F2FC180101C77F20CE004C7CC486D /* BNCKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 15753FE6AA06580FAE183BAF12B58BAE /* BNCKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B064D9733E34BDF7C304410800FDD1D8 /* BranchCSSearchableItemAttributeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB89E6CF362295D89F31175A8C1708 /* BranchCSSearchableItemAttributeSet.m */; };
+		B0834EA74077A6B6213FEE6A947B6790 /* BNCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E626EE8BC827C7802FD20563F90BD0 /* BNCError.m */; };
+		B1B53F9F3A1AC3A38990B3DEC43C7DD3 /* BNCConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9ABD908E6051E72CE05DDF4820DD0B /* BNCConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B31EDA4DE312CD8C67CA679426582072 /* BNCError.h in Headers */ = {isa = PBXBuildFile; fileRef = FB72BFEBCF671CBBC3F02761BD083C11 /* BNCError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5911412359FB8B9F0DEF2EB1D8A44C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66DA67EBD9BEBC4F33F716C4AECB089 /* Foundation.framework */; };
+		BBDC8B9AE5A846259B0EC7CABF8D05C9 /* BNCApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FF755A6A26BBAB10E7D8EB05472BB /* BNCApplication.m */; };
+		BCEE70B3DF742D356DADF5CBDAF4BA9B /* BranchContentPathProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EABCBC9516571B084F27FBF832EBFCE8 /* BranchContentPathProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD8B02524BDA567A129EBEB3E3D456AC /* BranchRedeemRewardsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CC2B093FBD4DC9BED2D402F49B586D /* BranchRedeemRewardsRequest.m */; };
+		BEB631B9E95708F91060F13417E5D597 /* BranchLogoutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A50D51EFC4D3A0853D58A931B0C752D /* BranchLogoutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C270DF26F732A8D0B1A57FFDF9622904 /* BranchUniversalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9242C0A0603741A13CD5FFABAF424 /* BranchUniversalObject.m */; };
+		C2BED82BBD7CCE3A37FCAE18E97A3113 /* BNCAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = E96A5AAFF5A7705A53D7BE18A8177882 /* BNCAvailability.m */; };
+		C3E1CA17A25E59D54CDC820AD701CF08 /* BNCEncodingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 888259996619CFA6108BB61673B91D90 /* BNCEncodingUtils.m */; };
+		C5CEBF85A99633479A58DDF3E32D1C50 /* BNCDeepLinkViewControllerInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = E09F941364A23EC0E18BA276E30C98EF /* BNCDeepLinkViewControllerInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8C5A26D08DD8C7ED079066B0B85494B /* UIViewController+Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E63B14C0FCE18D3004E2CB8CE52F2B /* UIViewController+Branch.m */; };
+		C9095AA34E0C2AE714700080BCA5AB26 /* Branch+Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6AFA76CC94F305F1F7CA5021F3FB7 /* Branch+Validator.m */; };
+		CABAC346C2D2F47B41D53CC47ABACA62 /* BranchUniversalObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A290F24736C0AAB74F36616A53C9A842 /* BranchUniversalObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00A9BAB9BD0F62B20C716860BDEBE86 /* BranchActivityItemProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 169775905F478383494ED29638693197 /* BranchActivityItemProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A22EDD85E091508089E0BD7F66257B /* BranchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CC51B3BD175C8C3C2E1621F08C830C0F /* BranchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3B5FA5E5B0471AD1785E24ED8CA48D8 /* BranchInstallRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 214256421E1DB1BFEDE50198F50B169F /* BranchInstallRequest.m */; };
+		D53820D4FAAA9B6F021DEB469C6D2075 /* BranchContentDiscoveryManifest.h in Headers */ = {isa = PBXBuildFile; fileRef = D63B6CD3B7FDBB1B2AA4AF85AFE59DC9 /* BranchContentDiscoveryManifest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9387ADB627646C857D6AA50EDFA031F /* BranchCreditHistoryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C31D6C6509199488936B529F87265C8 /* BranchCreditHistoryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0120CFAD070A00A84CC524510C63E9 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1C48AA652F15732E3E12A5AF5C446 /* UITextField+fixCaretPosition.swift */; };
+		DE8DB9901ABA12AA15847459131F829B /* BranchContentPathProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ABD263C5277EA0F0701D7F2E59080 /* BranchContentPathProperties.m */; };
+		DFFD92935510817D6B038008AB7B422E /* BNCLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = D1554704ACFE88A081D514626CF7312C /* BNCLinkData.m */; };
+		E31D663CEB90946EEF644B5A86BC237C /* BranchInstallRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DC657D479BA3787DBB1F14D3C8804727 /* BranchInstallRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36D8AA980A74EBE5542DBE02BADF463 /* BranchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B3C63E19272E18094B4687FDCA8864 /* BranchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E48A68DB18B43D02B3512F1A891277B7 /* BranchContentDiscoverer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E224BDA689B8B9936A595FA82024FB /* BranchContentDiscoverer.m */; };
+		E666E11A3C326B8232113BC703DC7630 /* BranchDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEDD1FF66CAE1FA03BA78144318A84C /* BranchDelegate.m */; };
+		E6928210489AF7B6007C4229DDD5273A /* Branch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A361572DF2F2EC33041C33EA7C78CEB /* Branch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7DB910B5CFA04EEA71D8E814A3D4F3C /* BNCSpotlightService.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1F4317146E3A74FF904F983604317D /* BNCSpotlightService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7E88263CA57F85FE3DBD9D02696630F /* BranchShortUrlRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 149726962AB49C1924F6031A2D84981A /* BranchShortUrlRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A23FCA21C42BC3C67B59DAD47E5131 /* FABKitProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B8B3BADFA5FCAC052C4A8F2449E112 /* FABKitProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA9A407F0A67935B2CEF93EC7901F559 /* BNCLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E5021EC387DA54830200FBDA016B01 /* BNCLocalization.m */; };
+		EE5BB3A2B33525CECD44C9D0ADA7469D /* BNCNetworkServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C569B9A87F8960963F9BC2F352FB4B /* BNCNetworkServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE805DD7B6DABB7CE1C1BB37146F6BF /* BranchLogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84785E2EC6ACD90DF70DCE70B40D189B /* BranchLogoutRequest.m */; };
+		F0E17934915F447A039107DBAADAFF1F /* BNCThreads.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FD699399A0A3D1D0F7503F1ABB9FCF /* BNCThreads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12746E99CE4C1D085703179B94383E8 /* BNCDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 441610FBD36D3B64F4B91136F9CAC111 /* BNCDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F136452EE97EB891E5C0826C989BFDEB /* BNCSystemObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CEF4632B9C938653103C5681CBAB12 /* BNCSystemObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16FC86D545956DAB791890B970F5C43 /* BranchCloseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 99310AA3793C61C6B63F6720E461154E /* BranchCloseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24E53BBB6F0D9C16F9477EC8111FBE8 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85318818D91247F35E2753F76185B76F /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F559E93AD9AC4DB3928C97325FC3FAA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E66DA67EBD9BEBC4F33F716C4AECB089 /* Foundation.framework */; };
+		F7B4FA6EF36EFF98EF867F50864BFC93 /* ANSCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = A50818277F071DDB3D93A08249D40E10 /* ANSCompatibility.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F7BF4B8069720C9A0CD7C2166ACB9F70 /* BranchSpotlightUrlRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9C7818E1F3F60444D4A4742FAF27D /* BranchSpotlightUrlRequest.m */; };
+		F86871DEBA0B391BA9841BA5CC27418E /* BNCSpotlightService.m in Sources */ = {isa = PBXBuildFile; fileRef = F0800801F62F2F102BA2C27B9AACAAFB /* BNCSpotlightService.m */; };
+		FB1E1D6E6D55099EF45D9F6F16286236 /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBC216BE2A6A91D2283A7D420340859 /* Branch.m */; };
+		FD67137CE73C78606BA7F73E18487933 /* BranchShortUrlSyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEAC8AC23D7526F926FE6D1EE51884 /* BranchShortUrlSyncRequest.m */; };
+		FD7D027BC1CEB9EE42ECD0C26F45792E /* BranchContentDiscoveryManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D39F09C32A704DFA7F105C70F785DAD /* BranchContentDiscoveryManifest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB6E4A8E00948B7D8A28099AD21EAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246AB9E5B37CCC44C99FB6FA42D38DF4;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		97EAA32397F111C41293A4B0162FA9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32972675F42B7EE309575745358A426;
+			remoteInfo = Branch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AB78609A0AD9CB79518C7C260E5500 /* BNCURLBlackList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCURLBlackList.m; path = "Branch-SDK/Branch-SDK/BNCURLBlackList.m"; sourceTree = "<group>"; };
+		07CB2B86102018C16C7FFB1B37B61818 /* BNCDeepLinkViewControllerInstance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCDeepLinkViewControllerInstance.m; path = "Branch-SDK/Branch-SDK/BNCDeepLinkViewControllerInstance.m"; sourceTree = "<group>"; };
+		08F336CC168B22D48CA457F507619974 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		0A361572DF2F2EC33041C33EA7C78CEB /* Branch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Branch-umbrella.h"; sourceTree = "<group>"; };
+		0C32BB45314806BC624B1EAB57EBF8F3 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
+		0C88E9307C237B62672905317723F5AD /* BNCNetworkService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCNetworkService.h; path = "Branch-SDK/Branch-SDK/Networking/BNCNetworkService.h"; sourceTree = "<group>"; };
+		0DAB0D03B40DB925A8EC51F8FDD6331A /* BNCLinkCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCLinkCache.m; path = "Branch-SDK/Branch-SDK/BNCLinkCache.m"; sourceTree = "<group>"; };
+		0DD6AFA76CC94F305F1F7CA5021F3FB7 /* Branch+Validator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Branch+Validator.m"; path = "Branch-SDK/Branch-SDK/Branch+Validator.m"; sourceTree = "<group>"; };
+		0EE57A009B0D7F79C574FCA4F956C7FF /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = "Branch-SDK/Fabric/Answers.h"; sourceTree = "<group>"; };
+		0F03C322F92C69F3F6D17835410A517F /* BNCCommerceEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCCommerceEvent.m; path = "Branch-SDK/Branch-SDK/BNCCommerceEvent.m"; sourceTree = "<group>"; };
+		0F88DBA66FC5A88908AD82852BF4BF81 /* UIViewController+Branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Branch.h"; path = "Branch-SDK/Branch-SDK/UIViewController+Branch.h"; sourceTree = "<group>"; };
+		0F95846A49EE78C15C1708A5A04E80ED /* Branch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Branch.xcconfig; sourceTree = "<group>"; };
+		0FFBBBDA9FB719C174968CCBCD90B5CF /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		118C48C45F21251623608DA4727564F3 /* BranchContentDiscoverer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchContentDiscoverer.h; path = "Branch-SDK/Branch-SDK/BranchContentDiscoverer.h"; sourceTree = "<group>"; };
+		12B8CAD57FEC99784B81A3D6BD8FC377 /* Pods-OnthegoCustomer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnthegoCustomer.modulemap"; sourceTree = "<group>"; };
+		12D5C9B1369AA8BBA09DFF6DDFDC5063 /* BranchEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchEvent.m; path = "Branch-SDK/Branch-SDK/BranchEvent.m"; sourceTree = "<group>"; };
+		13BB5C235ACC47F1A5EB8C46E8B17695 /* BranchOpenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchOpenRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchOpenRequest.h"; sourceTree = "<group>"; };
+		145232A462A0CE2AADF8DD1C0A1BD993 /* BranchActivityItemProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchActivityItemProvider.m; path = "Branch-SDK/Branch-SDK/BranchActivityItemProvider.m"; sourceTree = "<group>"; };
+		1460557CABBE9668BB9EE84563BA30DF /* BNCLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCLog.h; path = "Branch-SDK/Branch-SDK/BNCLog.h"; sourceTree = "<group>"; };
+		149726962AB49C1924F6031A2D84981A /* BranchShortUrlRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchShortUrlRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchShortUrlRequest.h"; sourceTree = "<group>"; };
+		15753FE6AA06580FAE183BAF12B58BAE /* BNCKeyChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCKeyChain.h; path = "Branch-SDK/Branch-SDK/BNCKeyChain.h"; sourceTree = "<group>"; };
+		169775905F478383494ED29638693197 /* BranchActivityItemProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchActivityItemProvider.h; path = "Branch-SDK/Branch-SDK/BranchActivityItemProvider.h"; sourceTree = "<group>"; };
+		18CEF4632B9C938653103C5681CBAB12 /* BNCSystemObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCSystemObserver.h; path = "Branch-SDK/Branch-SDK/BNCSystemObserver.h"; sourceTree = "<group>"; };
+		1A1FC95081849666A7A30A3388DBDDD2 /* BranchShortUrlSyncRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchShortUrlSyncRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchShortUrlSyncRequest.h"; sourceTree = "<group>"; };
+		1A8F23EEC65D6204E988CFF0677F7BBC /* Branch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Branch.modulemap; sourceTree = "<group>"; };
+		1CCE6856A3DC3887EC0E29E0B06CC218 /* BranchViewHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchViewHandler.h; path = "Branch-SDK/Branch-SDK/BranchViewHandler.h"; sourceTree = "<group>"; };
+		214256421E1DB1BFEDE50198F50B169F /* BranchInstallRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchInstallRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchInstallRequest.m"; sourceTree = "<group>"; };
+		240043EF574986DD18B9CD91962BFD08 /* BNCServerInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerInterface.m; path = "Branch-SDK/Branch-SDK/Networking/BNCServerInterface.m"; sourceTree = "<group>"; };
+		241EC90794C6CAFD492D574D4CF13DBB /* BranchShareLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchShareLink.h; path = "Branch-SDK/Branch-SDK/BranchShareLink.h"; sourceTree = "<group>"; };
+		2BBA26A18C5966F7D1011345C0015710 /* BNCContentDiscoveryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCContentDiscoveryManager.h; path = "Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.h"; sourceTree = "<group>"; };
+		2D276CABA329BDC68055C5BAE6402DF4 /* BNCNetworkService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCNetworkService.m; path = "Branch-SDK/Branch-SDK/Networking/BNCNetworkService.m"; sourceTree = "<group>"; };
+		2FE14A33DC26C9452C58E04304F1340A /* BNCLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCLocalization.h; path = "Branch-SDK/Branch-SDK/BNCLocalization.h"; sourceTree = "<group>"; };
+		31B3C63E19272E18094B4687FDCA8864 /* BranchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchView.h; path = "Branch-SDK/Branch-SDK/BranchView.h"; sourceTree = "<group>"; };
+		32BE95ACB6D333BA21E1BF1A9E8C63B3 /* BranchUserCompletedActionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchUserCompletedActionRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchUserCompletedActionRequest.h"; sourceTree = "<group>"; };
+		32BF36BB7A320DE7143A907CCD222924 /* BNCContentDiscoveryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCContentDiscoveryManager.m; path = "Branch-SDK/Branch-SDK/BNCContentDiscoveryManager.m"; sourceTree = "<group>"; };
+		34943DCD35BE581CC168EA430C2EB74C /* BranchShortUrlRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchShortUrlRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchShortUrlRequest.m"; sourceTree = "<group>"; };
+		3754A2A019860B15211F2342EFF03D88 /* BranchCloseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCloseRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchCloseRequest.m"; sourceTree = "<group>"; };
+		377E6D513F667D7EE6E9BCE2799E12A4 /* Branch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Branch-dummy.m"; sourceTree = "<group>"; };
+		38FEA96A63941709BA7810BA00BAC88B /* BNCPreferenceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCPreferenceHelper.m; path = "Branch-SDK/Branch-SDK/BNCPreferenceHelper.m"; sourceTree = "<group>"; };
+		3AD385D1E362AB25EA918C2B419C138C /* BNCKeyChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCKeyChain.m; path = "Branch-SDK/Branch-SDK/BNCKeyChain.m"; sourceTree = "<group>"; };
+		3BC9C7818E1F3F60444D4A4742FAF27D /* BranchSpotlightUrlRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchSpotlightUrlRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchSpotlightUrlRequest.m"; sourceTree = "<group>"; };
+		3E5048139C42130450633EC91E31DBC5 /* BranchEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchEvent.h; path = "Branch-SDK/Branch-SDK/BranchEvent.h"; sourceTree = "<group>"; };
+		3E541FD2FEAB07494581517EEDC6A4C7 /* BNCPreferenceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCPreferenceHelper.h; path = "Branch-SDK/Branch-SDK/BNCPreferenceHelper.h"; sourceTree = "<group>"; };
+		407546DF3A9E8A3EB09A26FB6CFFE36F /* BranchSpotlightUrlRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchSpotlightUrlRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchSpotlightUrlRequest.h"; sourceTree = "<group>"; };
+		40E626EE8BC827C7802FD20563F90BD0 /* BNCError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCError.m; path = "Branch-SDK/Branch-SDK/BNCError.m"; sourceTree = "<group>"; };
+		413BC032E5B87C749D2E472ADF88F525 /* BranchShareLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchShareLink.m; path = "Branch-SDK/Branch-SDK/BranchShareLink.m"; sourceTree = "<group>"; };
+		42C569B9A87F8960963F9BC2F352FB4B /* BNCNetworkServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCNetworkServiceProtocol.h; path = "Branch-SDK/Branch-SDK/Networking/BNCNetworkServiceProtocol.h"; sourceTree = "<group>"; };
+		43210B012F043A94735DEA7C5A1F52DD /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		441610FBD36D3B64F4B91136F9CAC111 /* BNCDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCDeviceInfo.h; path = "Branch-SDK/Branch-SDK/BNCDeviceInfo.h"; sourceTree = "<group>"; };
+		46B0248C578577D55924F3E9B6ABB2B3 /* Pods-OnthegoCustomer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnthegoCustomer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4921CCF60805D6342F6A15FA5D60AA31 /* BNCServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerRequest.m; path = "Branch-SDK/Branch-SDK/Networking/BNCServerRequest.m"; sourceTree = "<group>"; };
+		4B6043527C10446FFD2D7A8324A296D8 /* BNCServerRequestQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerRequestQueue.h; path = "Branch-SDK/Branch-SDK/Networking/BNCServerRequestQueue.h"; sourceTree = "<group>"; };
+		4B8498E22795398FA76B169C6917FC3C /* BranchLoadRewardsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLoadRewardsRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchLoadRewardsRequest.m"; sourceTree = "<group>"; };
+		5006E3A554A6D117AC2C99F06458E81D /* BranchDeepLinkingController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchDeepLinkingController.h; path = "Branch-SDK/Branch-SDK/BranchDeepLinkingController.h"; sourceTree = "<group>"; };
+		512359F5FD2056F223DB2BC79B24830A /* BNCStrongMatchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCStrongMatchHelper.m; path = "Branch-SDK/Branch-SDK/BNCStrongMatchHelper.m"; sourceTree = "<group>"; };
+		51CE85187F0E24E80433398597C96F6C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		53FEAC8AC23D7526F926FE6D1EE51884 /* BranchShortUrlSyncRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchShortUrlSyncRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchShortUrlSyncRequest.m"; sourceTree = "<group>"; };
+		556ABD263C5277EA0F0701D7F2E59080 /* BranchContentPathProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchContentPathProperties.m; path = "Branch-SDK/Branch-SDK/BranchContentPathProperties.m"; sourceTree = "<group>"; };
+		55CC2B093FBD4DC9BED2D402F49B586D /* BranchRedeemRewardsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchRedeemRewardsRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchRedeemRewardsRequest.m"; sourceTree = "<group>"; };
+		5665D8824810CD518F411F843D5961AC /* BNCCommerceEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCCommerceEvent.h; path = "Branch-SDK/Branch-SDK/BNCCommerceEvent.h"; sourceTree = "<group>"; };
+		5777828C2F3CBC85876FF4F402EE773E /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		5917B01F72F9DB617AC6546841C55E32 /* BranchConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchConstants.h; path = "Branch-SDK/Branch-SDK/BranchConstants.h"; sourceTree = "<group>"; };
+		5A0E5EDBC1F37E978D4D63AA3B253234 /* NSMutableDictionary+Branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Branch.h"; path = "Branch-SDK/Branch-SDK/NSMutableDictionary+Branch.h"; sourceTree = "<group>"; };
+		5E4121DDAC54E8D276530A4D969BAA0E /* BNCEncodingUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCEncodingUtils.h; path = "Branch-SDK/Branch-SDK/BNCEncodingUtils.h"; sourceTree = "<group>"; };
+		603109A1F02FDED2773D94D6278BBC03 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		60722F8356CFEFC91DC4DAB24FA09EC0 /* BranchLoadRewardsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLoadRewardsRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchLoadRewardsRequest.h"; sourceTree = "<group>"; };
+		61F439B6DD776BF6B9D9F7D1FF30E177 /* BranchUserCompletedActionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchUserCompletedActionRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchUserCompletedActionRequest.m"; sourceTree = "<group>"; };
+		621D3DDD7ABF850D67ED3463492125CB /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		649E38C436F1D53413CA2ADB6E041017 /* Pods-OnthegoCustomer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnthegoCustomer-dummy.m"; sourceTree = "<group>"; };
+		66191AF7E6A275E54B4141B11ACF7E65 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		6B9975D017511AA23B938657BDDC8216 /* BNCDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCDebug.h; path = "Branch-SDK/Branch-SDK/BNCDebug.h"; sourceTree = "<group>"; };
+		6BB1C48AA652F15732E3E12A5AF5C446 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		6C31D6C6509199488936B529F87265C8 /* BranchCreditHistoryRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCreditHistoryRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchCreditHistoryRequest.h"; sourceTree = "<group>"; };
+		6D71888B99BA7FFCF32D7055A78FE5F4 /* BranchViewHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchViewHandler.m; path = "Branch-SDK/Branch-SDK/BranchViewHandler.m"; sourceTree = "<group>"; };
+		7006E77D4FCB87DA8CACAE42872773F7 /* BNCFieldDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCFieldDefines.h; path = "Branch-SDK/Branch-SDK/BNCFieldDefines.h"; sourceTree = "<group>"; };
+		70E5021EC387DA54830200FBDA016B01 /* BNCLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCLocalization.m; path = "Branch-SDK/Branch-SDK/BNCLocalization.m"; sourceTree = "<group>"; };
+		75DBCCB562485FAB5F9ECB2646D1765B /* Pods-OnthegoCustomer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnthegoCustomer-frameworks.sh"; sourceTree = "<group>"; };
+		77B02356BE64CB4072C1AB9EF95008B3 /* Pods-OnthegoCustomer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnthegoCustomer-resources.sh"; sourceTree = "<group>"; };
+		790E36E041D020D786ACF5A75C4BA66A /* BNCLinkCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCLinkCache.h; path = "Branch-SDK/Branch-SDK/BNCLinkCache.h"; sourceTree = "<group>"; };
+		79F34AE0E19313E954D3B943ED9C5E99 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		7D3F89F3E7F1DB999CE2E9D02D68993F /* BNCLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCLog.m; path = "Branch-SDK/Branch-SDK/BNCLog.m"; sourceTree = "<group>"; };
+		7D76CFE7D954401B3FD84DBD44E09A68 /* BNCDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCDebug.m; path = "Branch-SDK/Branch-SDK/BNCDebug.m"; sourceTree = "<group>"; };
+		7E41887A20DDC70FF95AD81B337D9FD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE052CDCD65CB16B9F82747AD2C42CC /* BNCServerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerInterface.h; path = "Branch-SDK/Branch-SDK/Networking/BNCServerInterface.h"; sourceTree = "<group>"; };
+		7FEDD1FF66CAE1FA03BA78144318A84C /* BranchDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchDelegate.m; path = "Branch-SDK/Branch-SDK/BranchDelegate.m"; sourceTree = "<group>"; };
+		81E63B14C0FCE18D3004E2CB8CE52F2B /* UIViewController+Branch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Branch.m"; path = "Branch-SDK/Branch-SDK/UIViewController+Branch.m"; sourceTree = "<group>"; };
+		83FA825EB91724B2DAF27E00EE25B8F2 /* BNCCrashlyticsWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCCrashlyticsWrapper.m; path = "Branch-SDK/Branch-SDK/BNCCrashlyticsWrapper.m"; sourceTree = "<group>"; };
+		84785E2EC6ACD90DF70DCE70B40D189B /* BranchLogoutRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLogoutRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchLogoutRequest.m"; sourceTree = "<group>"; };
+		8510F14E2AD2B737AE45D9B0E35D26D9 /* BranchCreditHistoryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCreditHistoryRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchCreditHistoryRequest.m"; sourceTree = "<group>"; };
+		85318818D91247F35E2753F76185B76F /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		85B26A903E5B020D29B4FA77D2FA1F46 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8784A23147BE93075CBE4257D2F0DC58 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		888259996619CFA6108BB61673B91D90 /* BNCEncodingUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCEncodingUtils.m; path = "Branch-SDK/Branch-SDK/BNCEncodingUtils.m"; sourceTree = "<group>"; };
+		89F706E7068CAFEF34771D016D83AB76 /* BNCFabricAnswers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCFabricAnswers.m; path = "Branch-SDK/Branch-SDK/BNCFabricAnswers.m"; sourceTree = "<group>"; };
+		8C77714D5CE83D1D48F372DAC3A81D11 /* Branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Branch.h; path = "Branch-SDK/Branch-SDK/Branch.h"; sourceTree = "<group>"; };
+		8DC9242C0A0603741A13CD5FFABAF424 /* BranchUniversalObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchUniversalObject.m; path = "Branch-SDK/Branch-SDK/BranchUniversalObject.m"; sourceTree = "<group>"; };
+		8F71AA3BF25EFEDDC71F299CF0162132 /* BranchLinkProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLinkProperties.h; path = "Branch-SDK/Branch-SDK/BranchLinkProperties.h"; sourceTree = "<group>"; };
+		9041FFD6D29C971BF432D3D63A44E216 /* Branch+Validator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Branch+Validator.h"; path = "Branch-SDK/Branch-SDK/Branch+Validator.h"; sourceTree = "<group>"; };
+		90AB2750F8FC3513B4D198B6D36FD577 /* BNCURLBlackList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCURLBlackList.h; path = "Branch-SDK/Branch-SDK/BNCURLBlackList.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DDF07213E3262A5D2FBCD4A6E4BFC9 /* BNCServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerResponse.h; path = "Branch-SDK/Branch-SDK/Networking/BNCServerResponse.h"; sourceTree = "<group>"; };
+		93EBEE1A110CF9DACA00E188AABBCE5F /* Pods-OnthegoCustomer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnthegoCustomer-acknowledgements.plist"; sourceTree = "<group>"; };
+		945D9FFC153F40FFA539C73F166E6034 /* Pods-OnthegoCustomer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnthegoCustomer-umbrella.h"; sourceTree = "<group>"; };
+		96BC9117FCE4A7C6507A491080730DDE /* BNCCallbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCCallbacks.h; path = "Branch-SDK/Branch-SDK/BNCCallbacks.h"; sourceTree = "<group>"; };
+		97A8D48E077922A8BD40D03D25F40689 /* NSString+Branch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Branch.m"; path = "Branch-SDK/Branch-SDK/NSString+Branch.m"; sourceTree = "<group>"; };
+		98CC7097CA5A6ECE14CC489C41D1C752 /* BNCConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCConfig.m; path = "Branch-SDK/Branch-SDK/BNCConfig.m"; sourceTree = "<group>"; };
+		99310AA3793C61C6B63F6720E461154E /* BranchCloseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCloseRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchCloseRequest.h"; sourceTree = "<group>"; };
+		9A50D51EFC4D3A0853D58A931B0C752D /* BranchLogoutRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchLogoutRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchLogoutRequest.h"; sourceTree = "<group>"; };
+		9CD4AA29BFFD9128506756355F7782E0 /* BNCServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCServerRequest.h; path = "Branch-SDK/Branch-SDK/Networking/BNCServerRequest.h"; sourceTree = "<group>"; };
+		9D39F09C32A704DFA7F105C70F785DAD /* BranchContentDiscoveryManifest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchContentDiscoveryManifest.m; path = "Branch-SDK/Branch-SDK/BranchContentDiscoveryManifest.m"; sourceTree = "<group>"; };
+		9F952A740482F46ADAB9795D9CBCE922 /* BNCCrashlyticsWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCCrashlyticsWrapper.h; path = "Branch-SDK/Branch-SDK/BNCCrashlyticsWrapper.h"; sourceTree = "<group>"; };
+		A290F24736C0AAB74F36616A53C9A842 /* BranchUniversalObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchUniversalObject.h; path = "Branch-SDK/Branch-SDK/BranchUniversalObject.h"; sourceTree = "<group>"; };
+		A50818277F071DDB3D93A08249D40E10 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = "Branch-SDK/Fabric/ANSCompatibility.h"; sourceTree = "<group>"; };
+		A56C5858583D4489641E9B27C47257EB /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = "Branch-SDK/Fabric/FABAttributes.h"; sourceTree = "<group>"; };
+		A616D39D5B0A7309D5959D136F0AFC41 /* BNCFabricAnswers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCFabricAnswers.h; path = "Branch-SDK/Branch-SDK/BNCFabricAnswers.h"; sourceTree = "<group>"; };
+		AA3F31432872E1670254F675ED413DD2 /* BranchSetIdentityRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchSetIdentityRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchSetIdentityRequest.h"; sourceTree = "<group>"; };
+		AACBB92EF5DD5C4F4A6F9F1FB6D1780A /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		AB6FFF24A559446CCAB0257FDFC6755F /* Fabric+FABKits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fabric+FABKits.h"; path = "Branch-SDK/Fabric/Fabric+FABKits.h"; sourceTree = "<group>"; };
+		AFDFB685A162CCFC94D9426E8EE55D9B /* BranchRegisterViewRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchRegisterViewRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchRegisterViewRequest.h"; sourceTree = "<group>"; };
+		B2A6396FCA946CA145F4414770E0BAE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33E4325E03952EA118871C9227DE42D /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		B70A017785072A651E65ACEC93AB4837 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		BFE691052D1ACFFEE150160E6A3222CC /* BNCSystemObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCSystemObserver.m; path = "Branch-SDK/Branch-SDK/BNCSystemObserver.m"; sourceTree = "<group>"; };
+		C0EB89E6CF362295D89F31175A8C1708 /* BranchCSSearchableItemAttributeSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchCSSearchableItemAttributeSet.m; path = "Branch-SDK/Branch-SDK/BranchCSSearchableItemAttributeSet.m"; sourceTree = "<group>"; };
+		C2E224BDA689B8B9936A595FA82024FB /* BranchContentDiscoverer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchContentDiscoverer.m; path = "Branch-SDK/Branch-SDK/BranchContentDiscoverer.m"; sourceTree = "<group>"; };
+		C97FF755A6A26BBAB10E7D8EB05472BB /* BNCApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCApplication.m; path = "Branch-SDK/Branch-SDK/BNCApplication.m"; sourceTree = "<group>"; };
+		CABDC4A2A16B76705412B68A1961165A /* BNCApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCApplication.h; path = "Branch-SDK/Branch-SDK/BNCApplication.h"; sourceTree = "<group>"; };
+		CC51B3BD175C8C3C2E1621F08C830C0F /* BranchDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchDelegate.h; path = "Branch-SDK/Branch-SDK/BranchDelegate.h"; sourceTree = "<group>"; };
+		CCF17FC8A6232E106F154A316534B73C /* Branch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Branch-prefix.pch"; sourceTree = "<group>"; };
+		CE9ABD908E6051E72CE05DDF4820DD0B /* BNCConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCConfig.h; path = "Branch-SDK/Branch-SDK/BNCConfig.h"; sourceTree = "<group>"; };
+		CED7E6A6FCD9007AE1582AB13C9445AF /* BranchConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchConstants.m; path = "Branch-SDK/Branch-SDK/BranchConstants.m"; sourceTree = "<group>"; };
+		D1554704ACFE88A081D514626CF7312C /* BNCLinkData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCLinkData.m; path = "Branch-SDK/Branch-SDK/BNCLinkData.m"; sourceTree = "<group>"; };
+		D2695C714E07216E826FD13BC18B8F87 /* BNCDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCDeviceInfo.m; path = "Branch-SDK/Branch-SDK/BNCDeviceInfo.m"; sourceTree = "<group>"; };
+		D63B6CD3B7FDBB1B2AA4AF85AFE59DC9 /* BranchContentDiscoveryManifest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchContentDiscoveryManifest.h; path = "Branch-SDK/Branch-SDK/BranchContentDiscoveryManifest.h"; sourceTree = "<group>"; };
+		DA1F4317146E3A74FF904F983604317D /* BNCSpotlightService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCSpotlightService.h; path = "Branch-SDK/Branch-SDK/BNCSpotlightService.h"; sourceTree = "<group>"; };
+		DAB199376723F9A24BC1D4C87B870AAB /* BranchCSSearchableItemAttributeSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchCSSearchableItemAttributeSet.h; path = "Branch-SDK/Branch-SDK/BranchCSSearchableItemAttributeSet.h"; sourceTree = "<group>"; };
+		DB4998553C167C2663785C349D0F8A5C /* BNCLinkData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCLinkData.h; path = "Branch-SDK/Branch-SDK/BNCLinkData.h"; sourceTree = "<group>"; };
+		DC657D479BA3787DBB1F14D3C8804727 /* BranchInstallRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchInstallRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchInstallRequest.h"; sourceTree = "<group>"; };
+		DDB3CF6DD1D99DDDFF75068CCF35AC6E /* Pods-OnthegoCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnthegoCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		DFF8AA91FD600AD5E88312D2915B1304 /* Pods_OnthegoCustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OnthegoCustomer.framework; path = "Pods-OnthegoCustomer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09F941364A23EC0E18BA276E30C98EF /* BNCDeepLinkViewControllerInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCDeepLinkViewControllerInstance.h; path = "Branch-SDK/Branch-SDK/BNCDeepLinkViewControllerInstance.h"; sourceTree = "<group>"; };
+		E1FDEB87FCA64D5B68E846460D86B1DA /* Branch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Branch.framework; path = Branch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21CF03F23DE7CD0A0CDD6C513B4FDFD /* BNCStrongMatchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCStrongMatchHelper.h; path = "Branch-SDK/Branch-SDK/BNCStrongMatchHelper.h"; sourceTree = "<group>"; };
+		E3A77F24EBDAF529C135C00196D2BCA4 /* BranchSetIdentityRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchSetIdentityRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchSetIdentityRequest.m"; sourceTree = "<group>"; };
+		E4E607E4587BE167E5ACA552604D7120 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		E66DA67EBD9BEBC4F33F716C4AECB089 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E837CF50D25D9940AAD89DF4A330C0D9 /* Pods-OnthegoCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnthegoCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+		E96A5AAFF5A7705A53D7BE18A8177882 /* BNCAvailability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCAvailability.m; path = "Branch-SDK/Branch-SDK/BNCAvailability.m"; sourceTree = "<group>"; };
+		E9DC9FC58944565552908646254A1924 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E1EC67F28F7232F6B46B3ECC9DCCD3 /* BNCServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerResponse.m; path = "Branch-SDK/Branch-SDK/Networking/BNCServerResponse.m"; sourceTree = "<group>"; };
+		EABCBC9516571B084F27FBF832EBFCE8 /* BranchContentPathProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchContentPathProperties.h; path = "Branch-SDK/Branch-SDK/BranchContentPathProperties.h"; sourceTree = "<group>"; };
+		EB9B27856388CA071BB2C2B5C9A8A8F0 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = "Branch-SDK/Fabric/Fabric.h"; sourceTree = "<group>"; };
+		EC32255C9F5908ADD7773B6B254E99DF /* NSMutableDictionary+Branch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Branch.m"; path = "Branch-SDK/Branch-SDK/NSMutableDictionary+Branch.m"; sourceTree = "<group>"; };
+		EDBC216BE2A6A91D2283A7D420340859 /* Branch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Branch.m; path = "Branch-SDK/Branch-SDK/Branch.m"; sourceTree = "<group>"; };
+		EE3BBAB729C62005D3622CE4DC355D19 /* BNCServerRequestQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCServerRequestQueue.m; path = "Branch-SDK/Branch-SDK/Networking/BNCServerRequestQueue.m"; sourceTree = "<group>"; };
+		EEB9F505A61C470FA59CE40D25393645 /* BranchRedeemRewardsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BranchRedeemRewardsRequest.h; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchRedeemRewardsRequest.h"; sourceTree = "<group>"; };
+		EF83E18956EFEFC21771896F58035D3A /* BNCThreads.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCThreads.m; path = "Branch-SDK/Branch-SDK/BNCThreads.m"; sourceTree = "<group>"; };
+		F0800801F62F2F102BA2C27B9AACAAFB /* BNCSpotlightService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BNCSpotlightService.m; path = "Branch-SDK/Branch-SDK/BNCSpotlightService.m"; sourceTree = "<group>"; };
+		F65B972A1595CC232F19651646E5C178 /* NSString+Branch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Branch.h"; path = "Branch-SDK/Branch-SDK/NSString+Branch.h"; sourceTree = "<group>"; };
+		F78D90D7972AE4804BE5C4B59804ED8F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F8EEC39CCA40E23735C505342542199C /* BranchRegisterViewRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchRegisterViewRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchRegisterViewRequest.m"; sourceTree = "<group>"; };
+		F8FD699399A0A3D1D0F7503F1ABB9FCF /* BNCThreads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCThreads.h; path = "Branch-SDK/Branch-SDK/BNCThreads.h"; sourceTree = "<group>"; };
+		F97746096B379E185D523E062163F04F /* BranchLinkProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchLinkProperties.m; path = "Branch-SDK/Branch-SDK/BranchLinkProperties.m"; sourceTree = "<group>"; };
+		F9B8B3BADFA5FCAC052C4A8F2449E112 /* FABKitProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABKitProtocol.h; path = "Branch-SDK/Fabric/FABKitProtocol.h"; sourceTree = "<group>"; };
+		FA5EE257C30F1A648B330F23BB7975D8 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		FAB863F9ACABF8965C75326EBCD95599 /* BranchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchView.m; path = "Branch-SDK/Branch-SDK/BranchView.m"; sourceTree = "<group>"; };
+		FB72BFEBCF671CBBC3F02761BD083C11 /* BNCError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCError.h; path = "Branch-SDK/Branch-SDK/BNCError.h"; sourceTree = "<group>"; };
+		FC6821D913EF97F9554A6DEB53235231 /* BranchOpenRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BranchOpenRequest.m; path = "Branch-SDK/Branch-SDK/Networking/Requests/BranchOpenRequest.m"; sourceTree = "<group>"; };
+		FF11C80BC83DA155444F7C445F7D62D2 /* BNCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BNCAvailability.h; path = "Branch-SDK/Branch-SDK/BNCAvailability.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05092D82D8C7D613BC63AD9266A5658D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC289488FF6182C75B02541B6191836 /* AdSupport.framework in Frameworks */,
+				B5911412359FB8B9F0DEF2EB1D8A44C5 /* Foundation.framework in Frameworks */,
+				6FB135D37BFD5CC2834B030297825DD0 /* MobileCoreServices.framework in Frameworks */,
+				0C45DC71A1B509EA19F138082D4FE578 /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3746085DEDE673915209E9CF1BF21909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F559E93AD9AC4DB3928C97325FC3FAA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9B30640398B8092882AD6E28301665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C324667AD986D56CFC7651B1284127 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD338D075DA167FEB3DE7D198361CEDF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18508B5F07C1172384EE85ECD9E7F5A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F78D90D7972AE4804BE5C4B59804ED8F /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1868C7CE70EE4EA942B74E4ECFDB0DE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70A017785072A651E65ACEC93AB4837 /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21382720749267C995CC27EA5103544B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F23EEC65D6204E988CFF0677F7BBC /* Branch.modulemap */,
+				0F95846A49EE78C15C1708A5A04E80ED /* Branch.xcconfig */,
+				377E6D513F667D7EE6E9BCE2799E12A4 /* Branch-dummy.m */,
+				CCF17FC8A6232E106F154A316534B73C /* Branch-prefix.pch */,
+				0A361572DF2F2EC33041C33EA7C78CEB /* Branch-umbrella.h */,
+				7E41887A20DDC70FF95AD81B337D9FD9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Branch";
+			sourceTree = "<group>";
+		};
+		267D1365D08DAC55F9C115E45BE30440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EE257C30F1A648B330F23BB7975D8 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CE4EDDC6E98419490B448FBB63B7ADD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96EAE6747E1A5E880575E490278595A5 /* Pods-OnthegoCustomer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38BFF1F20F957777FDAD1C0DBB9E8736 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B33E4325E03952EA118871C9227DE42D /* SkyFloatingLabelTextField.swift */,
+				79F34AE0E19313E954D3B943ED9C5E99 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				6BB1C48AA652F15732E3E12A5AF5C446 /* UITextField+fixCaretPosition.swift */,
+				CCC26404D6E31DADF2A40EECDB3EAE3D /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		59214E652DBBD72C88A1E296147F6F48 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				267D1365D08DAC55F9C115E45BE30440 /* Frameworks */,
+				EA7F09AE6914F3DED959DA30DACD5619 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		74D720C45A2BE0E3D2D11BB43682660F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08F336CC168B22D48CA457F507619974 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		774CE68DB65C909B14242AB6B790D9FD /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				8E738C8E212277274CE49CBDE56FE2A7 /* Frameworks */,
+				18508B5F07C1172384EE85ECD9E7F5A2 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				F4ACD5E71165F511158796C5567C3847 /* Pods */,
+				F42EC7D08188E8379212436FAECBD0C2 /* Products */,
+				2CE4EDDC6E98419490B448FBB63B7ADD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8183366A28A35CAF6494307A03BD146C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				621D3DDD7ABF850D67ED3463492125CB /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85D97BAA423E3DCAFE970667643DF439 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A50818277F071DDB3D93A08249D40E10 /* ANSCompatibility.h */,
+				0EE57A009B0D7F79C574FCA4F956C7FF /* Answers.h */,
+				CABDC4A2A16B76705412B68A1961165A /* BNCApplication.h */,
+				C97FF755A6A26BBAB10E7D8EB05472BB /* BNCApplication.m */,
+				FF11C80BC83DA155444F7C445F7D62D2 /* BNCAvailability.h */,
+				E96A5AAFF5A7705A53D7BE18A8177882 /* BNCAvailability.m */,
+				96BC9117FCE4A7C6507A491080730DDE /* BNCCallbacks.h */,
+				5665D8824810CD518F411F843D5961AC /* BNCCommerceEvent.h */,
+				0F03C322F92C69F3F6D17835410A517F /* BNCCommerceEvent.m */,
+				CE9ABD908E6051E72CE05DDF4820DD0B /* BNCConfig.h */,
+				98CC7097CA5A6ECE14CC489C41D1C752 /* BNCConfig.m */,
+				2BBA26A18C5966F7D1011345C0015710 /* BNCContentDiscoveryManager.h */,
+				32BF36BB7A320DE7143A907CCD222924 /* BNCContentDiscoveryManager.m */,
+				9F952A740482F46ADAB9795D9CBCE922 /* BNCCrashlyticsWrapper.h */,
+				83FA825EB91724B2DAF27E00EE25B8F2 /* BNCCrashlyticsWrapper.m */,
+				6B9975D017511AA23B938657BDDC8216 /* BNCDebug.h */,
+				7D76CFE7D954401B3FD84DBD44E09A68 /* BNCDebug.m */,
+				E09F941364A23EC0E18BA276E30C98EF /* BNCDeepLinkViewControllerInstance.h */,
+				07CB2B86102018C16C7FFB1B37B61818 /* BNCDeepLinkViewControllerInstance.m */,
+				441610FBD36D3B64F4B91136F9CAC111 /* BNCDeviceInfo.h */,
+				D2695C714E07216E826FD13BC18B8F87 /* BNCDeviceInfo.m */,
+				5E4121DDAC54E8D276530A4D969BAA0E /* BNCEncodingUtils.h */,
+				888259996619CFA6108BB61673B91D90 /* BNCEncodingUtils.m */,
+				FB72BFEBCF671CBBC3F02761BD083C11 /* BNCError.h */,
+				40E626EE8BC827C7802FD20563F90BD0 /* BNCError.m */,
+				A616D39D5B0A7309D5959D136F0AFC41 /* BNCFabricAnswers.h */,
+				89F706E7068CAFEF34771D016D83AB76 /* BNCFabricAnswers.m */,
+				7006E77D4FCB87DA8CACAE42872773F7 /* BNCFieldDefines.h */,
+				15753FE6AA06580FAE183BAF12B58BAE /* BNCKeyChain.h */,
+				3AD385D1E362AB25EA918C2B419C138C /* BNCKeyChain.m */,
+				790E36E041D020D786ACF5A75C4BA66A /* BNCLinkCache.h */,
+				0DAB0D03B40DB925A8EC51F8FDD6331A /* BNCLinkCache.m */,
+				DB4998553C167C2663785C349D0F8A5C /* BNCLinkData.h */,
+				D1554704ACFE88A081D514626CF7312C /* BNCLinkData.m */,
+				2FE14A33DC26C9452C58E04304F1340A /* BNCLocalization.h */,
+				70E5021EC387DA54830200FBDA016B01 /* BNCLocalization.m */,
+				1460557CABBE9668BB9EE84563BA30DF /* BNCLog.h */,
+				7D3F89F3E7F1DB999CE2E9D02D68993F /* BNCLog.m */,
+				0C88E9307C237B62672905317723F5AD /* BNCNetworkService.h */,
+				2D276CABA329BDC68055C5BAE6402DF4 /* BNCNetworkService.m */,
+				42C569B9A87F8960963F9BC2F352FB4B /* BNCNetworkServiceProtocol.h */,
+				3E541FD2FEAB07494581517EEDC6A4C7 /* BNCPreferenceHelper.h */,
+				38FEA96A63941709BA7810BA00BAC88B /* BNCPreferenceHelper.m */,
+				7FE052CDCD65CB16B9F82747AD2C42CC /* BNCServerInterface.h */,
+				240043EF574986DD18B9CD91962BFD08 /* BNCServerInterface.m */,
+				9CD4AA29BFFD9128506756355F7782E0 /* BNCServerRequest.h */,
+				4921CCF60805D6342F6A15FA5D60AA31 /* BNCServerRequest.m */,
+				4B6043527C10446FFD2D7A8324A296D8 /* BNCServerRequestQueue.h */,
+				EE3BBAB729C62005D3622CE4DC355D19 /* BNCServerRequestQueue.m */,
+				93DDF07213E3262A5D2FBCD4A6E4BFC9 /* BNCServerResponse.h */,
+				E9E1EC67F28F7232F6B46B3ECC9DCCD3 /* BNCServerResponse.m */,
+				DA1F4317146E3A74FF904F983604317D /* BNCSpotlightService.h */,
+				F0800801F62F2F102BA2C27B9AACAAFB /* BNCSpotlightService.m */,
+				E21CF03F23DE7CD0A0CDD6C513B4FDFD /* BNCStrongMatchHelper.h */,
+				512359F5FD2056F223DB2BC79B24830A /* BNCStrongMatchHelper.m */,
+				18CEF4632B9C938653103C5681CBAB12 /* BNCSystemObserver.h */,
+				BFE691052D1ACFFEE150160E6A3222CC /* BNCSystemObserver.m */,
+				F8FD699399A0A3D1D0F7503F1ABB9FCF /* BNCThreads.h */,
+				EF83E18956EFEFC21771896F58035D3A /* BNCThreads.m */,
+				90AB2750F8FC3513B4D198B6D36FD577 /* BNCURLBlackList.h */,
+				02AB78609A0AD9CB79518C7C260E5500 /* BNCURLBlackList.m */,
+				8C77714D5CE83D1D48F372DAC3A81D11 /* Branch.h */,
+				EDBC216BE2A6A91D2283A7D420340859 /* Branch.m */,
+				9041FFD6D29C971BF432D3D63A44E216 /* Branch+Validator.h */,
+				0DD6AFA76CC94F305F1F7CA5021F3FB7 /* Branch+Validator.m */,
+				169775905F478383494ED29638693197 /* BranchActivityItemProvider.h */,
+				145232A462A0CE2AADF8DD1C0A1BD993 /* BranchActivityItemProvider.m */,
+				99310AA3793C61C6B63F6720E461154E /* BranchCloseRequest.h */,
+				3754A2A019860B15211F2342EFF03D88 /* BranchCloseRequest.m */,
+				5917B01F72F9DB617AC6546841C55E32 /* BranchConstants.h */,
+				CED7E6A6FCD9007AE1582AB13C9445AF /* BranchConstants.m */,
+				118C48C45F21251623608DA4727564F3 /* BranchContentDiscoverer.h */,
+				C2E224BDA689B8B9936A595FA82024FB /* BranchContentDiscoverer.m */,
+				D63B6CD3B7FDBB1B2AA4AF85AFE59DC9 /* BranchContentDiscoveryManifest.h */,
+				9D39F09C32A704DFA7F105C70F785DAD /* BranchContentDiscoveryManifest.m */,
+				EABCBC9516571B084F27FBF832EBFCE8 /* BranchContentPathProperties.h */,
+				556ABD263C5277EA0F0701D7F2E59080 /* BranchContentPathProperties.m */,
+				6C31D6C6509199488936B529F87265C8 /* BranchCreditHistoryRequest.h */,
+				8510F14E2AD2B737AE45D9B0E35D26D9 /* BranchCreditHistoryRequest.m */,
+				DAB199376723F9A24BC1D4C87B870AAB /* BranchCSSearchableItemAttributeSet.h */,
+				C0EB89E6CF362295D89F31175A8C1708 /* BranchCSSearchableItemAttributeSet.m */,
+				5006E3A554A6D117AC2C99F06458E81D /* BranchDeepLinkingController.h */,
+				CC51B3BD175C8C3C2E1621F08C830C0F /* BranchDelegate.h */,
+				7FEDD1FF66CAE1FA03BA78144318A84C /* BranchDelegate.m */,
+				3E5048139C42130450633EC91E31DBC5 /* BranchEvent.h */,
+				12D5C9B1369AA8BBA09DFF6DDFDC5063 /* BranchEvent.m */,
+				DC657D479BA3787DBB1F14D3C8804727 /* BranchInstallRequest.h */,
+				214256421E1DB1BFEDE50198F50B169F /* BranchInstallRequest.m */,
+				8F71AA3BF25EFEDDC71F299CF0162132 /* BranchLinkProperties.h */,
+				F97746096B379E185D523E062163F04F /* BranchLinkProperties.m */,
+				60722F8356CFEFC91DC4DAB24FA09EC0 /* BranchLoadRewardsRequest.h */,
+				4B8498E22795398FA76B169C6917FC3C /* BranchLoadRewardsRequest.m */,
+				9A50D51EFC4D3A0853D58A931B0C752D /* BranchLogoutRequest.h */,
+				84785E2EC6ACD90DF70DCE70B40D189B /* BranchLogoutRequest.m */,
+				13BB5C235ACC47F1A5EB8C46E8B17695 /* BranchOpenRequest.h */,
+				FC6821D913EF97F9554A6DEB53235231 /* BranchOpenRequest.m */,
+				EEB9F505A61C470FA59CE40D25393645 /* BranchRedeemRewardsRequest.h */,
+				55CC2B093FBD4DC9BED2D402F49B586D /* BranchRedeemRewardsRequest.m */,
+				AFDFB685A162CCFC94D9426E8EE55D9B /* BranchRegisterViewRequest.h */,
+				F8EEC39CCA40E23735C505342542199C /* BranchRegisterViewRequest.m */,
+				AA3F31432872E1670254F675ED413DD2 /* BranchSetIdentityRequest.h */,
+				E3A77F24EBDAF529C135C00196D2BCA4 /* BranchSetIdentityRequest.m */,
+				241EC90794C6CAFD492D574D4CF13DBB /* BranchShareLink.h */,
+				413BC032E5B87C749D2E472ADF88F525 /* BranchShareLink.m */,
+				149726962AB49C1924F6031A2D84981A /* BranchShortUrlRequest.h */,
+				34943DCD35BE581CC168EA430C2EB74C /* BranchShortUrlRequest.m */,
+				1A1FC95081849666A7A30A3388DBDDD2 /* BranchShortUrlSyncRequest.h */,
+				53FEAC8AC23D7526F926FE6D1EE51884 /* BranchShortUrlSyncRequest.m */,
+				407546DF3A9E8A3EB09A26FB6CFFE36F /* BranchSpotlightUrlRequest.h */,
+				3BC9C7818E1F3F60444D4A4742FAF27D /* BranchSpotlightUrlRequest.m */,
+				A290F24736C0AAB74F36616A53C9A842 /* BranchUniversalObject.h */,
+				8DC9242C0A0603741A13CD5FFABAF424 /* BranchUniversalObject.m */,
+				32BE95ACB6D333BA21E1BF1A9E8C63B3 /* BranchUserCompletedActionRequest.h */,
+				61F439B6DD776BF6B9D9F7D1FF30E177 /* BranchUserCompletedActionRequest.m */,
+				31B3C63E19272E18094B4687FDCA8864 /* BranchView.h */,
+				FAB863F9ACABF8965C75326EBCD95599 /* BranchView.m */,
+				1CCE6856A3DC3887EC0E29E0B06CC218 /* BranchViewHandler.h */,
+				6D71888B99BA7FFCF32D7055A78FE5F4 /* BranchViewHandler.m */,
+				A56C5858583D4489641E9B27C47257EB /* FABAttributes.h */,
+				F9B8B3BADFA5FCAC052C4A8F2449E112 /* FABKitProtocol.h */,
+				EB9B27856388CA071BB2C2B5C9A8A8F0 /* Fabric.h */,
+				AB6FFF24A559446CCAB0257FDFC6755F /* Fabric+FABKits.h */,
+				5A0E5EDBC1F37E978D4D63AA3B253234 /* NSMutableDictionary+Branch.h */,
+				EC32255C9F5908ADD7773B6B254E99DF /* NSMutableDictionary+Branch.m */,
+				F65B972A1595CC232F19651646E5C178 /* NSString+Branch.h */,
+				97A8D48E077922A8BD40D03D25F40689 /* NSString+Branch.m */,
+				0F88DBA66FC5A88908AD82852BF4BF81 /* UIViewController+Branch.h */,
+				81E63B14C0FCE18D3004E2CB8CE52F2B /* UIViewController+Branch.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8E738C8E212277274CE49CBDE56FE2A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				603109A1F02FDED2773D94D6278BBC03 /* GoogleMaps.framework */,
+				43210B012F043A94735DEA7C5A1F52DD /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96EAE6747E1A5E880575E490278595A5 /* Pods-OnthegoCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				B2A6396FCA946CA145F4414770E0BAE6 /* Info.plist */,
+				12B8CAD57FEC99784B81A3D6BD8FC377 /* Pods-OnthegoCustomer.modulemap */,
+				46B0248C578577D55924F3E9B6ABB2B3 /* Pods-OnthegoCustomer-acknowledgements.markdown */,
+				93EBEE1A110CF9DACA00E188AABBCE5F /* Pods-OnthegoCustomer-acknowledgements.plist */,
+				649E38C436F1D53413CA2ADB6E041017 /* Pods-OnthegoCustomer-dummy.m */,
+				75DBCCB562485FAB5F9ECB2646D1765B /* Pods-OnthegoCustomer-frameworks.sh */,
+				77B02356BE64CB4072C1AB9EF95008B3 /* Pods-OnthegoCustomer-resources.sh */,
+				945D9FFC153F40FFA539C73F166E6034 /* Pods-OnthegoCustomer-umbrella.h */,
+				E837CF50D25D9940AAD89DF4A330C0D9 /* Pods-OnthegoCustomer.debug.xcconfig */,
+				DDB3CF6DD1D99DDDFF75068CCF35AC6E /* Pods-OnthegoCustomer.release.xcconfig */,
+			);
+			name = "Pods-OnthegoCustomer";
+			path = "Target Support Files/Pods-OnthegoCustomer";
+			sourceTree = "<group>";
+		};
+		9CE4ACA72527D313CB1A17334E9C37FE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8183366A28A35CAF6494307A03BD146C /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C68639F8F7C9A55064F5755EB8405E41 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4ACA72527D313CB1A17334E9C37FE /* Base */,
+				774CE68DB65C909B14242AB6B790D9FD /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		CCC26404D6E31DADF2A40EECDB3EAE3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC9FC58944565552908646254A1924 /* Info.plist */,
+				5777828C2F3CBC85876FF4F402EE773E /* SkyFloatingLabelTextField.modulemap */,
+				66191AF7E6A275E54B4141B11ACF7E65 /* SkyFloatingLabelTextField.xcconfig */,
+				0FFBBBDA9FB719C174968CCBCD90B5CF /* SkyFloatingLabelTextField-dummy.m */,
+				AACBB92EF5DD5C4F4A6F9F1FB6D1780A /* SkyFloatingLabelTextField-prefix.pch */,
+				85318818D91247F35E2753F76185B76F /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		EA7F09AE6914F3DED959DA30DACD5619 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4E607E4587BE167E5ACA552604D7120 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F202AEC2217D2700DECE5A8439BA336F /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7CE70EE4EA942B74E4ECFDB0DE7 /* Frameworks */,
+				74D720C45A2BE0E3D2D11BB43682660F /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		F42EC7D08188E8379212436FAECBD0C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FDEB87FCA64D5B68E846460D86B1DA /* Branch.framework */,
+				DFF8AA91FD600AD5E88312D2915B1304 /* Pods_OnthegoCustomer.framework */,
+				85B26A903E5B020D29B4FA77D2FA1F46 /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4ACD5E71165F511158796C5567C3847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCE51FEC73EAADE79F2CB17B4F18BA92 /* Branch */,
+				C68639F8F7C9A55064F5755EB8405E41 /* GoogleMaps */,
+				F202AEC2217D2700DECE5A8439BA336F /* GooglePlacePicker */,
+				59214E652DBBD72C88A1E296147F6F48 /* GooglePlaces */,
+				38BFF1F20F957777FDAD1C0DBB9E8736 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCE51FEC73EAADE79F2CB17B4F18BA92 /* Branch */ = {
+			isa = PBXGroup;
+			children = (
+				85D97BAA423E3DCAFE970667643DF439 /* Core */,
+				21382720749267C995CC27EA5103544B /* Support Files */,
+			);
+			name = Branch;
+			path = Branch;
+			sourceTree = "<group>";
+		};
+		FD338D075DA167FEB3DE7D198361CEDF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8784A23147BE93075CBE4257D2F0DC58 /* AdSupport.framework */,
+				E66DA67EBD9BEBC4F33F716C4AECB089 /* Foundation.framework */,
+				51CE85187F0E24E80433398597C96F6C /* MobileCoreServices.framework */,
+				0C32BB45314806BC624B1EAB57EBF8F3 /* SafariServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D8E0B6EFB3FE4FE381127825F8A193D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B0508EAC4DA69F7A7E9290A0D77D2 /* Pods-OnthegoCustomer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCFB54045286C77F2A3345237AF36F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24E53BBB6F0D9C16F9477EC8111FBE8 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0030FB0520D7FB956E908510EA0CFB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B4FA6EF36EFF98EF867F50864BFC93 /* ANSCompatibility.h in Headers */,
+				0C915F8C67A7695A4E55D6FF3D112621 /* Answers.h in Headers */,
+				0D81BA3613E3DCE04B2A0933EC808083 /* BNCApplication.h in Headers */,
+				3BE0225C62A6EA4A11D1101353E9A3E8 /* BNCAvailability.h in Headers */,
+				4C280C18A961F8958FE014C6900F068F /* BNCCallbacks.h in Headers */,
+				761B15089C336F3D34454547C38B6C94 /* BNCCommerceEvent.h in Headers */,
+				B1B53F9F3A1AC3A38990B3DEC43C7DD3 /* BNCConfig.h in Headers */,
+				360F8965A175FDDF25B85064EB6A7C57 /* BNCContentDiscoveryManager.h in Headers */,
+				5C390E44BFD0C0847B38B08216669046 /* BNCCrashlyticsWrapper.h in Headers */,
+				023BA68E912FA2F27F231AF18D3586B3 /* BNCDebug.h in Headers */,
+				C5CEBF85A99633479A58DDF3E32D1C50 /* BNCDeepLinkViewControllerInstance.h in Headers */,
+				F12746E99CE4C1D085703179B94383E8 /* BNCDeviceInfo.h in Headers */,
+				07062BFF44E7B28F9BD7AE51DC5D192A /* BNCEncodingUtils.h in Headers */,
+				B31EDA4DE312CD8C67CA679426582072 /* BNCError.h in Headers */,
+				24C37C341ED61E90779039EE4B4BE94D /* BNCFabricAnswers.h in Headers */,
+				9BAB24A1C86F62056204AE94D41BBDC0 /* BNCFieldDefines.h in Headers */,
+				AF9F2FC180101C77F20CE004C7CC486D /* BNCKeyChain.h in Headers */,
+				315716EA78D7D82DBF77F4B978E5A1FD /* BNCLinkCache.h in Headers */,
+				36CDEF8E17F2ACC66D93684EA8217ECE /* BNCLinkData.h in Headers */,
+				6DB403BF82FACCA1512416E83A6A76FF /* BNCLocalization.h in Headers */,
+				836B4DC72B7928F7F18C6DCC8816D901 /* BNCLog.h in Headers */,
+				5F43C4CF091F0F8447182861F54F3EF5 /* BNCNetworkService.h in Headers */,
+				EE5BB3A2B33525CECD44C9D0ADA7469D /* BNCNetworkServiceProtocol.h in Headers */,
+				7E47F2951EE880C8E41027D98284D4EE /* BNCPreferenceHelper.h in Headers */,
+				8B1C7A2ECB3F220593169E697B8403D5 /* BNCServerInterface.h in Headers */,
+				7BD15BC39494D577F10A02C6D27A6978 /* BNCServerRequest.h in Headers */,
+				32CE9ECD664C84772B582151EA7009E8 /* BNCServerRequestQueue.h in Headers */,
+				7C5EA1BBC475D4103596EE59E62DF6CC /* BNCServerResponse.h in Headers */,
+				E7DB910B5CFA04EEA71D8E814A3D4F3C /* BNCSpotlightService.h in Headers */,
+				2B45BF4B6288E1C35B56803EDDA0E952 /* BNCStrongMatchHelper.h in Headers */,
+				F136452EE97EB891E5C0826C989BFDEB /* BNCSystemObserver.h in Headers */,
+				F0E17934915F447A039107DBAADAFF1F /* BNCThreads.h in Headers */,
+				506EFDBA36609B14F2E7360E88D86610 /* BNCURLBlackList.h in Headers */,
+				332AC2E179A645C7D64F30E0939F1F23 /* Branch+Validator.h in Headers */,
+				E6928210489AF7B6007C4229DDD5273A /* Branch-umbrella.h in Headers */,
+				A394407047C0B2E3C67A7914B9F3AB70 /* Branch.h in Headers */,
+				D00A9BAB9BD0F62B20C716860BDEBE86 /* BranchActivityItemProvider.h in Headers */,
+				F16FC86D545956DAB791890B970F5C43 /* BranchCloseRequest.h in Headers */,
+				6618393E4424716465FF39953507548B /* BranchConstants.h in Headers */,
+				9F2DD55C6E83781A9A8582C5DCFB2D15 /* BranchContentDiscoverer.h in Headers */,
+				D53820D4FAAA9B6F021DEB469C6D2075 /* BranchContentDiscoveryManifest.h in Headers */,
+				BCEE70B3DF742D356DADF5CBDAF4BA9B /* BranchContentPathProperties.h in Headers */,
+				D9387ADB627646C857D6AA50EDFA031F /* BranchCreditHistoryRequest.h in Headers */,
+				545136170A46A2662F84E522ED4C99BD /* BranchCSSearchableItemAttributeSet.h in Headers */,
+				184A9A01207AB18D717A544E31191F0F /* BranchDeepLinkingController.h in Headers */,
+				D2A22EDD85E091508089E0BD7F66257B /* BranchDelegate.h in Headers */,
+				11C9CDCEBF11E0BCC0A8B1B6BF16BC71 /* BranchEvent.h in Headers */,
+				E31D663CEB90946EEF644B5A86BC237C /* BranchInstallRequest.h in Headers */,
+				7343608671BBF4A6DDF2471460E6AAF1 /* BranchLinkProperties.h in Headers */,
+				454CA46B09C9582F8D60FEFD571E4C7F /* BranchLoadRewardsRequest.h in Headers */,
+				BEB631B9E95708F91060F13417E5D597 /* BranchLogoutRequest.h in Headers */,
+				43F8A96E62CE5402A4BBD535D30F7F38 /* BranchOpenRequest.h in Headers */,
+				9C62853B239A3114A7CCC11184779C3B /* BranchRedeemRewardsRequest.h in Headers */,
+				2512AAAAF1BBCA96660DB50EDA8E64CA /* BranchRegisterViewRequest.h in Headers */,
+				10DFF5B4AB1B770DDF4EFE6B00A4A3A0 /* BranchSetIdentityRequest.h in Headers */,
+				427FA5EDA2374AFBC4DEC819183F5BB4 /* BranchShareLink.h in Headers */,
+				E7E88263CA57F85FE3DBD9D02696630F /* BranchShortUrlRequest.h in Headers */,
+				1F6FAE3912838827D86406682AF5CD74 /* BranchShortUrlSyncRequest.h in Headers */,
+				A38E6AE2C78772365BBA19A79AB081B8 /* BranchSpotlightUrlRequest.h in Headers */,
+				CABAC346C2D2F47B41D53CC47ABACA62 /* BranchUniversalObject.h in Headers */,
+				1D6FD2ADC469E4FEC62A01553CEF01E8 /* BranchUserCompletedActionRequest.h in Headers */,
+				E36D8AA980A74EBE5542DBE02BADF463 /* BranchView.h in Headers */,
+				AA98A257795EA58348F1D932C428A242 /* BranchViewHandler.h in Headers */,
+				628104915CAC16595BF4F53F4B0D9082 /* FABAttributes.h in Headers */,
+				E8A23FCA21C42BC3C67B59DAD47E5131 /* FABKitProtocol.h in Headers */,
+				3F05C05F0D2E60350233437F5F565559 /* Fabric+FABKits.h in Headers */,
+				24EA46FE7F844942C9B3BD0C2186584E /* Fabric.h in Headers */,
+				736EF5416B4B57EED82BA04769DC29C5 /* NSMutableDictionary+Branch.h in Headers */,
+				761A1D99EBB20F0A04D9088139742726 /* NSString+Branch.h in Headers */,
+				810282EAE86468ABF3DD437EEDBDCF89 /* UIViewController+Branch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		246AB9E5B37CCC44C99FB6FA42D38DF4 /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3674C89B775CC06757662FED07646DE8 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				D3CB14484F89ADA003F8C2A51C682166 /* Sources */,
+				3746085DEDE673915209E9CF1BF21909 /* Frameworks */,
+				ACCFB54045286C77F2A3345237AF36F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 85B26A903E5B020D29B4FA77D2FA1F46 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF219AEE105A41A886852CE529CF9CFF /* Pods-OnthegoCustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A5ED8D750DE256ACAF4180E273E593 /* Build configuration list for PBXNativeTarget "Pods-OnthegoCustomer" */;
+			buildPhases = (
+				0E62FE01190E41AB63E15285EC3E76B5 /* Sources */,
+				7D9B30640398B8092882AD6E28301665 /* Frameworks */,
+				9D8E0B6EFB3FE4FE381127825F8A193D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE6688B9303EE5BE382797989E230AB /* PBXTargetDependency */,
+				CBDE8B4A2A4B9A5E2327E38FF9267C12 /* PBXTargetDependency */,
+			);
+			name = "Pods-OnthegoCustomer";
+			productName = "Pods-OnthegoCustomer";
+			productReference = DFF8AA91FD600AD5E88312D2915B1304 /* Pods_OnthegoCustomer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D32972675F42B7EE309575745358A426 /* Branch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81F88A47E9BC543F01A3A21A29B83A3 /* Build configuration list for PBXNativeTarget "Branch" */;
+			buildPhases = (
+				93416C5F2CA697F0A5FAF10A899486D1 /* Sources */,
+				05092D82D8C7D613BC63AD9266A5658D /* Frameworks */,
+				F0030FB0520D7FB956E908510EA0CFB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Branch;
+			productName = Branch;
+			productReference = E1FDEB87FCA64D5B68E846460D86B1DA /* Branch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F42EC7D08188E8379212436FAECBD0C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32972675F42B7EE309575745358A426 /* Branch */,
+				CF219AEE105A41A886852CE529CF9CFF /* Pods-OnthegoCustomer */,
+				246AB9E5B37CCC44C99FB6FA42D38DF4 /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E62FE01190E41AB63E15285EC3E76B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163D92068677D20DBDC027D1DDFE6D7A /* Pods-OnthegoCustomer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93416C5F2CA697F0A5FAF10A899486D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDC8B9AE5A846259B0EC7CABF8D05C9 /* BNCApplication.m in Sources */,
+				C2BED82BBD7CCE3A37FCAE18E97A3113 /* BNCAvailability.m in Sources */,
+				5908617A723CF93E6EC06593239472D9 /* BNCCommerceEvent.m in Sources */,
+				6EB0AA15D26793E4F723D8F73F978D15 /* BNCConfig.m in Sources */,
+				A5B3B9B9E2D727A0CB3337FB8E617F50 /* BNCContentDiscoveryManager.m in Sources */,
+				31BBE99D74FE9E76D1F9BF39F3CEEE73 /* BNCCrashlyticsWrapper.m in Sources */,
+				73B7A6F760AAC5B63E2CF5622F9E9C1C /* BNCDebug.m in Sources */,
+				1DF1D8E7061D190272E8E014CA4064D6 /* BNCDeepLinkViewControllerInstance.m in Sources */,
+				6CD21A4F45E610F7EA050637FD06CC20 /* BNCDeviceInfo.m in Sources */,
+				C3E1CA17A25E59D54CDC820AD701CF08 /* BNCEncodingUtils.m in Sources */,
+				B0834EA74077A6B6213FEE6A947B6790 /* BNCError.m in Sources */,
+				40313DA7CEAEABD1FE1C8291BC2DC12A /* BNCFabricAnswers.m in Sources */,
+				8C78C1B1ED5671EF5796296884A1B4DA /* BNCKeyChain.m in Sources */,
+				5AED83AFE8A86567856938BE0E896D0E /* BNCLinkCache.m in Sources */,
+				DFFD92935510817D6B038008AB7B422E /* BNCLinkData.m in Sources */,
+				EA9A407F0A67935B2CEF93EC7901F559 /* BNCLocalization.m in Sources */,
+				9F5FD298E6B01224DB6961DBEB1EFF4F /* BNCLog.m in Sources */,
+				83824C03DE9F04C1E91E50A8528C9623 /* BNCNetworkService.m in Sources */,
+				7D98D11FCCD984DE5E204F678F26D225 /* BNCPreferenceHelper.m in Sources */,
+				A323CEABBF1510E7E3BF779E8816B227 /* BNCServerInterface.m in Sources */,
+				740C2C880707E329D26D91D3FA3B9AB0 /* BNCServerRequest.m in Sources */,
+				7C8B9B1971B5A552CACAA9F9F6D6BBCE /* BNCServerRequestQueue.m in Sources */,
+				47773D2BD584CD7933AB8315D06BD6E8 /* BNCServerResponse.m in Sources */,
+				F86871DEBA0B391BA9841BA5CC27418E /* BNCSpotlightService.m in Sources */,
+				8A93320F18F1CE9A7404445298F9611E /* BNCStrongMatchHelper.m in Sources */,
+				8134F5C7C48EB9A7B63FFEBF8DD5E04A /* BNCSystemObserver.m in Sources */,
+				783AB5270E0A451A388ABFEAE1DA644C /* BNCThreads.m in Sources */,
+				2E3890E725E05AA9C988E78DFE63F391 /* BNCURLBlackList.m in Sources */,
+				C9095AA34E0C2AE714700080BCA5AB26 /* Branch+Validator.m in Sources */,
+				98C09ACD60629E1C147E6E8EBA4E4FF8 /* Branch-dummy.m in Sources */,
+				FB1E1D6E6D55099EF45D9F6F16286236 /* Branch.m in Sources */,
+				3326C6B2BF30FD17D01490AF16AAE228 /* BranchActivityItemProvider.m in Sources */,
+				255ED110314764E7B6A1E78BA1BE7D0B /* BranchCloseRequest.m in Sources */,
+				91734C6DF6BEFF7D8B31EBE9323F6B17 /* BranchConstants.m in Sources */,
+				E48A68DB18B43D02B3512F1A891277B7 /* BranchContentDiscoverer.m in Sources */,
+				FD7D027BC1CEB9EE42ECD0C26F45792E /* BranchContentDiscoveryManifest.m in Sources */,
+				DE8DB9901ABA12AA15847459131F829B /* BranchContentPathProperties.m in Sources */,
+				836E5FCAFF67CECF01CE0F94955C3A77 /* BranchCreditHistoryRequest.m in Sources */,
+				B064D9733E34BDF7C304410800FDD1D8 /* BranchCSSearchableItemAttributeSet.m in Sources */,
+				E666E11A3C326B8232113BC703DC7630 /* BranchDelegate.m in Sources */,
+				34F70D4764D25B298F11CD8FB0D50F0E /* BranchEvent.m in Sources */,
+				D3B5FA5E5B0471AD1785E24ED8CA48D8 /* BranchInstallRequest.m in Sources */,
+				1FA362AB805D33641843562E1B94B2D5 /* BranchLinkProperties.m in Sources */,
+				0B68169A7817076ED9C7614E9B2FC6E1 /* BranchLoadRewardsRequest.m in Sources */,
+				EEE805DD7B6DABB7CE1C1BB37146F6BF /* BranchLogoutRequest.m in Sources */,
+				ADF8833398EBB60F68C43BA9FB554733 /* BranchOpenRequest.m in Sources */,
+				BD8B02524BDA567A129EBEB3E3D456AC /* BranchRedeemRewardsRequest.m in Sources */,
+				3C6FF2F91D40189DF1AC52F6C4996BC6 /* BranchRegisterViewRequest.m in Sources */,
+				7F4D53CC3C09B662946AB4CE7A9B9CAD /* BranchSetIdentityRequest.m in Sources */,
+				8942D4665854F8A54B8153ED6EC6DAED /* BranchShareLink.m in Sources */,
+				39843304ABA775CF285007559A4A8F24 /* BranchShortUrlRequest.m in Sources */,
+				FD67137CE73C78606BA7F73E18487933 /* BranchShortUrlSyncRequest.m in Sources */,
+				F7BF4B8069720C9A0CD7C2166ACB9F70 /* BranchSpotlightUrlRequest.m in Sources */,
+				C270DF26F732A8D0B1A57FFDF9622904 /* BranchUniversalObject.m in Sources */,
+				65B60AD5295E49C7CCFD02E8F3D8DE60 /* BranchUserCompletedActionRequest.m in Sources */,
+				6575F6F5189C0FC57400E5B7772A389F /* BranchView.m in Sources */,
+				6EA500D028342091F4FB677BAC5F5607 /* BranchViewHandler.m in Sources */,
+				7F48E5B44E8F0589F0ED94EE77EC603C /* NSMutableDictionary+Branch.m in Sources */,
+				01BE2017549E0E500EC392FA3DB23A3F /* NSString+Branch.m in Sources */,
+				C8C5A26D08DD8C7ED079066B0B85494B /* UIViewController+Branch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CB14484F89ADA003F8C2A51C682166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942EFF845184AC96BF93118993443DCD /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				6082B6EF2A798DA48DD711BE461DC842 /* SkyFloatingLabelTextField.swift in Sources */,
+				4796C43B3F41B68CE0FC5B1DB9F41A68 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				DE0120CFAD070A00A84CC524510C63E9 /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE6688B9303EE5BE382797989E230AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Branch;
+			target = D32972675F42B7EE309575745358A426 /* Branch */;
+			targetProxy = 97EAA32397F111C41293A4B0162FA9C8 /* PBXContainerItemProxy */;
+		};
+		CBDE8B4A2A4B9A5E2327E38FF9267C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = 246AB9E5B37CCC44C99FB6FA42D38DF4 /* SkyFloatingLabelTextField */;
+			targetProxy = 3DB6E4A8E00948B7D8A28099AD21EAF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		146A50D00DEABEE3BB71F0270204ED15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66191AF7E6A275E54B4141B11ACF7E65 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14ED7D599A720DB953EFA39B417D3A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F95846A49EE78C15C1708A5A04E80ED /* Branch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Branch/Branch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Branch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Branch/Branch.modulemap";
+				PRODUCT_MODULE_NAME = Branch;
+				PRODUCT_NAME = Branch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		55CC01D4454E8FA9EAFB8815B7BC7451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E837CF50D25D9940AAD89DF4A330C0D9 /* Pods-OnthegoCustomer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnthegoCustomer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnthegoCustomer/Pods-OnthegoCustomer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91A39B9151B6506AE7C3D3E8F61252D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F95846A49EE78C15C1708A5A04E80ED /* Branch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Branch/Branch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Branch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Branch/Branch.modulemap";
+				PRODUCT_MODULE_NAME = Branch;
+				PRODUCT_NAME = Branch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7BB5DC5C63BB1646FDB818E1B1B1AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB3CF6DD1D99DDDFF75068CCF35AC6E /* Pods-OnthegoCustomer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnthegoCustomer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OnthegoCustomer/Pods-OnthegoCustomer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3B4BD3892778FA2B97B887370CD2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66191AF7E6A275E54B4141B11ACF7E65 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3674C89B775CC06757662FED07646DE8 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146A50D00DEABEE3BB71F0270204ED15 /* Debug */,
+				E3B4BD3892778FA2B97B887370CD2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A5ED8D750DE256ACAF4180E273E593 /* Build configuration list for PBXNativeTarget "Pods-OnthegoCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CC01D4454E8FA9EAFB8815B7BC7451 /* Debug */,
+				D7BB5DC5C63BB1646FDB818E1B1B1AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81F88A47E9BC543F01A3A21A29B83A3 /* Build configuration list for PBXNativeTarget "Branch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ED7D599A720DB953EFA39B417D3A4C /* Debug */,
+				91A39B9151B6506AE7C3D3E8F61252D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

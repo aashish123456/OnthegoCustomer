@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image_name</key>
+		<string>home_icon</string>
+		<key>title</key>
+		<string>Accueil</string>
+		<key>Segue</key>
+		<string>sw_front</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>my_profile</string>
+		<key>title</key>
+		<string>Mon profil</string>
+		<key>Segue</key>
+		<string>showProfile</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>my_trip</string>
+		<key>title</key>
+		<string>Mes courses</string>
+		<key>Segue</key>
+		<string>showTrips</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>card_menu</string>
+		<key>title</key>
+		<string>Mes cartes</string>
+		<key>Segue</key>
+		<string>showCards</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>my_favourite_location</string>
+		<key>title</key>
+		<string>Mes adresses préferées</string>
+		<key>Segue</key>
+		<string>showFavourite</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>share_trip</string>
+		<key>title</key>
+		<string>Partagez une course</string>
+		<key>Segue</key>
+		<string>showShareTrip</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>contact_support</string>
+		<key>title</key>
+		<string>Contacter le support</string>
+		<key>Segue</key>
+		<string>contactUs</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>free_ride</string>
+		<key>title</key>
+		<string>Promotions</string>
+		<key>Segue</key>
+		<string>showFreeRide</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>faq</string>
+		<key>title</key>
+		<string>FAQ</string>
+		<key>Segue</key>
+		<string>showFaq</string>
+	</dict>
+	<dict>
+		<key>image_name</key>
+		<string>logout</string>
+		<key>title</key>
+		<string>Déconnexion</string>
+		<key>Segue</key>
+		<string>showPostJob</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,192 @@
+/* 
+  Localizable.strings
+  NikkosCustomer
+
+  Created by Umang on 9/13/16.
+  Copyright © 2016 Dheeraj Kumar. All rights reserved.
+*/
+
+Login = "Iniciar sesión";
+Enter_your_username = "introduzca su nombre";
+Enter_your_password = "Introduzca su contraseña";
+Forgot_Password = "Contraseña olvidada";
+Remember_Me = "Guardar contraseña" ;
+Language = "Guardar";
+New_user_Sign_Up = "Registro";
+Sign_In_With = "conectar con";
+Register = "registro";
+Enter_your_email = "Introduzca su correo electrónico";
+Enter_your_password = "Introduzca su contraseña";
+Enter_your_confirm_password = "Introduzca su contraseña de confirmación";
+Enter_your_phone_number = "Introduzca su número de teléfono";
+Company_Name = "Nombre de la empresa";
+Company_Id  = "Identificación de la empresa";
+Employee_Id = "ID de empleado";
+My_Profile = "Mi perfil";
+Home = "Pagina de inicio";
+Title_Credit_Amount = "Precio final";
+Add_Promo_Code = "Añada un código promocional";
+Trip_Id = "Identificador de viaje";
+Pickup_Address = "Lugar de recogida";
+DropOff_Address = "Lugar de envio";
+Ongoing_Trip = "Viaje en curso";
+Completed_Trip = "Terminado";
+Later_Trip = "Acceder a la carrera";
+Btn_Cancel = "anular";
+Trip_Status = "Estado del viaje";
+//Add Card VC
+
+NAME = "Apellido";
+Card_Number = "Número de tarjeta";
+CVV = "CVV";
+Month = "Mes";
+Year = "Año";
+
+Contact_Us = "Contáctenos";
+Feel_Free = "Por favor no dude en ponerse en contacto con nosotros si tiene preguntas";
+Enter_Your_Email = "Introduzca su correo electrónico";
+Enter_Your_Phone = "Introduzca su número de teléfono";
+
+Get_Free_Ride = "Obtener paseo gratis";
+Send_Ref = "Envie su códico de refencia";
+
+
+//Date_Time_Booking = "Fecha y hora de la reserva:";
+//Date_Time_Travelling = "Fecha y hora del viaje:";
+Driver_Name = "Nombre del servidor:";
+Company_Name = "Nombre de la companía:";
+Siret = "Número siret:";
+Estimated_Cost = "Costo estimado";
+Estimated_Distance = "Distancia estimada";
+No_Of_Persons = "Número de personas";
+Individual_Share = "Acciones individuales";
+
+
+Search_User = "Introduzca su usuario";
+Add_To_List = "Añadir a la lista";
+Close = "cerca";
+
+Add_card = "Añadir tarjeta";
+Card_Detail = "Detalles de tarjeta";
+Expiry_Date = "Fecha de expiración";
+AppName = "Nikkos clientes";
+coupon_code = "Ingrese el código de referencia";
+Do_you_want_to_add_this_location_inFavorites = "¿Quieres añadir este sitio a sus favoritos?";
+YesKey = "Sí";
+NoKey = "No";
+Drop_update = "Actualización de entrega (depósito)";
+Enter_nickname_for_this_address = "Introduzca un apodo (nick) a esta dirección";
+Submit = "Enviar";
+NickName = "SEUDÓNIMO";
+FAQ = "FAQ";
+Apple_products = "Los productos de apple";
+Contact_Support = "Contacte con el soporte" ;
+Free_rides = "Viajes gratis";
+Driver_not_available = "Conductor no disponible";
+from = "De";
+to = "A";
+Getting_address = "Obtener la Dirección ....";
+Enter_Pickup_Location = "Por favor, introduzca el lugar de recogida del pick-up.";
+Enter_dropoff_Location = "Por favor, introduzca el lugar de depósito";
+
+
+Get_an_estimate = "Obtener una estimación";
+Do_you_want_toDelete_favorite_address = "¿De verdad quiere eliminar la dirección favorita?";
+My_Trips = "Mis viajes" ;
+Are_you_sure_you_want_to_cancel_trips = "¿Realmente desea cancelar el viaje?";
+Choose_Option = "Elige opción";
+Camera = "cámara";
+Photo_Library = "Galería de fotos";
+Cancel = "anular";
+Enter_promo_code = "Introducir el código promocional";
+Something_went_wrong = "OOPs algo salió mal.";
+Please_wait_for_admin_mail_forActivation = "Por favor, espere  el correo electrónico del administrador para la activación.";
+Please_verify_your_email = "Por favor verificar su cuenta de correo electrónico.";
+Please_verify_your_PhoneNumber = "Por favor, compruebe su número de teléfono.";
+Please_contact_admin_toActivate = "Por favor, póngase en contacto con el administrador para que active.";
+Share_cost = "Compartir Costo ou Repartir el coste";
+NoClient_Register_With_This_Number = "No hay registro de clientes con este número.";
+Please_enter_Salutation = "Por favor, introduzca su saludo.";
+Please_enter_name = "Por favor, introduzca un nombre.";
+Please_enter_name_lessThan15Char = "Por favor, introduzca un nombre de menos de 15 caracteres.";
+Please_enter_email = "Por favor, introduzca su correo electrónico.";
+Please_enter_correct_format_mail = "Por favor, introduzca un formato de correo electrónico correcta.";
+Please_enter_password = "Por favor, introduzca la contraseña.";
+Please_enter_confirmPassword = "Por favor confirme su contraseña.";
+Password_Donotmatch = "La contraseña y la contraseña de confirmación no coinciden";
+Please_enter_Phone = "Por favor, introduzca su número de teléfono.";
+Please_enter_code = "Por favor, introduzca el código.";
+Please_enter_companyName = "Por favor, introduzca el nombre de la empresa.";
+Please_enter_companyId = "Por favor, introduzca el ID de la empresa.";
+Please_enter_employeeId = "Por favor, introduzca el ID del empleado";
+Email_Id = "El correo electrónico de acceso";
+Please_enter_cardholderName = "Por favor, introduzca el nombre del titular de la tarjeta.";
+Please_enter_cardNumber = "Por favor, introduzca el número de tarjeta.";
+Please_enter_cardNo_atleast12char = "Por favor, introduzca un número de tarjeta de al menos 12 caracteres.";
+Please_enter_cvvCode = "Por favor, introduzca el código CVV.";
+Please_enter_expiryMonth = "Por favor, introduzca el mes de vencimiento.ou Introduce el mes de caducidad, por favor";
+Please_enter_expiryYear =  "Por favor, introduzca el año de caducidad. (Introduzca el año en que expira por favor)";
+Nikkos_Customer = "Nikkos clientes!";
+Are_You_Sure_you_want_to_logout = "¿Seguro que desea finalizar la sesión?" ;
+Ride_has_ended = "El vieaje ha terminado.";
+Ride_has_started = "El viaje a comenzado";
+Driver_has_arrived = "Driver has arrived. Please contact with him.";
+Ride_canceled_bydriver = "Viaje cancelado por el conductor";
+My_cards = "Mis tarjetas";
+Locations = "Mis lugares preferidos";
+Not_Available = "NO DISPONIBLE"; 
+Ok_key = "De acuerdo";
+Please_verify_email_bforLogin = "Comprueba la dirección de correo electrónico antes de iniciar sesión.";
+You_cant_login_before_admin_approves_your_account = "No se puede firmar hasta que el administrador activa su cuenta";
+Please_contact_admin_forActivate = "Por favor, póngase en contacto con la administración para activar";
+Enter_email_id = "Introduzca un correo electrónico de identificación";
+
+Code = "Código";
+Cancel_PopUP = "¿Quieres cancelar este viaje? Se puede aplicar un cargo por cancelación.";
+No_Data = "No hay datos disponibles ahora!";
+Confirm_Booking = "Reserva confirmada";
+Title = "Título";
+Book_For = "libro para >";
+Number_Passenger  = "Número de pasajeros";
+Surge  = "aumentar";
+Min_Fare  = "Tarifa min";
+ETA  = "ETA";
+Cancel_Trip  = "Cancelar la carrera";
+Reason_Cancellation  = "Razones para el viaje de cancelación?";
+Done  = "Hecho";
+Thanks_Riding  = "Gracias por confiar en nosotros";
+Final_Price  = "Precio final";
+Driver_Name  = "Nombre del servidor";
+Trip_Date  = "Nombre del viaje";
+Rate_Driver  = "Nota el servidor";
+Comment  = "Comentarios";
+Save_Rating  = "Guardar";
+I_Would_Like_To_Pay  = "Me gustaría pagar";
+Selete_DateTime  = "Seleccione fecha y hora";
+Cancel_Date  = "anular";
+Sign_Up = "Registro";
+Pro_Customer = "Cliente profesional ?";
+Title_Want_Pro_Customer = "¿Quieres Pro-Cliente?";
+Book_For_Now = "Reservar ahora";
+Book_For_Later = "rodar más tarde";
+Pick_Up_Location = "Lugar de recogida";
+Drop_Off_Location = "Lugar de envio";
+Do_You_Want_To_Delete_This_Card = " ¿Desea borrar esta tarjeta?";
+
+Driver_Number = "Número de conductor";
+Driver_Name = "Nombre del servidor";
+Date_Time_Travelling = "Fecha y hora del viaje";
+Date_Time_Booking = "Fecha y hora de la reserva";
+select_your_ride = "Seleccione su traslado";
+My_Ride = "Mi translado";
+Cancel_Request = "Solicitud de cancelación";
+Driver_Name_plate_no = "Nombre del servidor/Número de la placa";
+Please_Enter_OTP = "Introduzca su código OTP";
+Resend = "Resend";
+Verification = "verificación?";
+LATER = "luego";
+NOW = "ahora";
+Show_Ride_On_Map = "Mostrar paseo en el mapa";
+Rate_Now = "Califica ahora";
+Confirm = "confirmar";
+Select_Address = "Seleccione el lugar";

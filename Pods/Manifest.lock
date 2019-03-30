@@ -1,0 +1,41 @@
+PODS:
+  - Branch (0.25.10):
+    - Branch/Core (= 0.25.10)
+  - Branch/Core (0.25.10)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.7.0):
+    - GoogleMaps (= 2.7.0)
+    - GooglePlaces (= 2.7.0)
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - SkyFloatingLabelTextField (3.6.0)
+
+DEPENDENCIES:
+  - Branch
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Branch
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  Branch: 3365f2e17921c503ff8a626cd053a056dbb87c62
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlacePicker: 59ea44db173c58486ad6123993e81feefcbce9c3
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+
+PODFILE CHECKSUM: d17e352354e17300821b4146af367ff1fe3d5f1a
+
+COCOAPODS: 1.5.3

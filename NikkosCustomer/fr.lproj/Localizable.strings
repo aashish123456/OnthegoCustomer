@@ -1,0 +1,189 @@
+/* 
+  Localizable.strings
+  NikkosCustomer
+
+  Created by Umang on 9/13/16.
+  Copyright © 2016 Dheeraj Kumar. All rights reserved.
+*/
+
+Login = "S'identifier";
+Enter_your_username = "Entrez votre nom";
+Enter_your_password = "Tapez votre mot de passe";
+Forgot_Password = "Mot de passe oublié?";
+Remember_Me = "Enregistrer le mot de passe" ;
+Language = "langue";
+New_user_Sign_Up = "S’inscrire";
+Sign_In_With = "Se connecter avec";
+Register = "S’inscrire";
+Enter_your_email = "Saisissez votre adresse mail";
+Enter_your_password = "Saisissez votre mot de passe";
+Enter_your_confirm_password = "Confirmez votre mot de passe";
+Enter_your_phone_number = "Saisissez votre numéro de téléphone";
+Company_Name = "Nom de la société";
+Company_Id  = "Identification de la société";
+Employee_Id = "Identification de l'employé";
+My_Profile = "Mon profil";
+Home = "Accueil";
+Title_Credit_Amount = "Montant du crédit";
+Add_Promo_Code = "Ajouter un code promotionnel";
+Trip_Id = "ID de la course";
+Pickup_Address = "Adresse de prise en charge";
+DropOff_Address = "Adresse d'arrivée ";
+Ongoing_Trip = "Voyage en cours";
+Completed_Trip = "Terminé";
+Later_Trip = "Acceder à la course";
+Btn_Cancel = "Annuler";
+Trip_Status = "État du voyage";
+//Add Card VC
+coupon_code = "Saisir le code parrainage";
+Add_card = "Ajouter une carte bancaire";
+Card_Detail = "Détails de carte";
+Expiry_Date = "Date d'expiration";
+AppName = "Client NIKKOS";
+Do_you_want_to_add_this_location_inFavorites = "Ajouter l'adresse à vos favoris ?";
+YesKey = "Oui";
+NoKey = "Non";
+Drop_update = "Mise à jour";
+Enter_nickname_for_this_address = "Donnez un nom à cette adresse";
+Submit = "Envoyer";
+NickName = "Pseudo";
+FAQ = "FAQ";
+Apple_products = "Produits Apple";
+Contact_Support = "Contacter le support" ;
+Free_rides = "Courses gratuites";
+Driver_not_available = "Chauffeur non disponible";
+from = "De";
+to = "A";
+Getting_address = "Recherche l'adresse ....";
+Enter_Pickup_Location = "Veuillez entrer l'adresse de la prise en charge";
+Enter_dropoff_Location = "Veuillez entrer l'adresse de destination";
+
+Get_Free_Ride = "Obtenir la promenade libre";
+Send_Ref = "Envoyez votre code de parrainage ";
+
+NAME = "Nom";
+Card_Number = "Numéro de carte";
+CVV = "CVV";
+Month = "Mois";
+Year = "An";
+
+Contact_Us = "Nous-contacter";
+Feel_Free = "S'il vous plaît n'hésitez pas à nous contacter si vous avez des questions";
+Enter_Your_Email = "saisissez votre e-mail";
+Enter_Your_Phone = "Saisissez votre numéro de téléphone";
+
+
+Date_Time_Booking = "Date/Temps de la réservation:";
+Date_Time_Travelling = "Date/Temps de voyage:";
+Driver_Name = "Nom du chauffeur:";
+Company_Name = "Nom de la société:";
+Siret = "Siret:";
+Estimated_Cost = "Coût estimé";
+Estimated_Distance = "Distance estimée";
+No_Of_Persons = "Nombre de passagers";
+Individual_Share = "Partage individuel";
+
+
+Search_User = "Chercher l'utlilisateur ";
+Add_To_List = "Ajouter à la liste";
+Close = "Fermer";
+
+Get_an_estimate = "Obtenir une estimation";
+Do_you_want_toDelete_favorite_address = "Voulez-vous supprimer cette adresse de vos favoris?";
+My_Trips = "Mes courses" ;
+Are_you_sure_you_want_to_cancel_trips = "Voulez-vous vraiment annuler la course?";
+Choose_Option = "Choisissez une option";
+Camera = "Caméra";
+Photo_Library = "Galerie de photos";
+Cancel = "Annuler";
+Enter_promo_code = "Saisir le code promotionnel";
+Something_went_wrong = "Une erreur est survenue";
+Please_wait_for_admin_mail_forActivation = "En attente de validation.";
+Please_verify_your_email = "Veuillez vérifier votre boite mail.";
+Please_verify_your_PhoneNumber = "Veuillez vérifier votre numéro de téléphone.";
+Please_contact_admin_toActivate = "Veuillez contacter le support NIKKOS.";
+Share_cost = "Partager le prix de la course";
+NoClient_Register_With_This_Number = "Aucun client ne s'est inscrit avec ce numéro.";
+Please_enter_Salutation = "Veuillez entrer votre titre.";
+Please_enter_name = "Veuillez entrer un nom.";
+Please_enter_name_lessThan15Char = "Veuillez entrer un nom de moins de 15 caractères.";
+Please_enter_email = "Veuillez saisir une adresse mail.";
+Please_enter_correct_format_mail = "Veuillez saisir une adresse mail correct.";
+Please_enter_password = "Veuillez entrer le mot de passe.";
+Please_enter_confirmPassword = "Veuillez confirmer votre mot de passe.";
+Password_Donotmatch = "Le mot de passe et la confirmation du mot de passe ne correspondent pas";
+Please_enter_Phone = "Veuillez entrer votre numéro de téléphone.";
+Please_enter_code = "Veuillez entrer le code.";
+Please_enter_companyName = "Veuillez saisir le nom de l'entreprise.";
+Please_enter_companyId = "Veuillez saisir l'identifiant de la société.";
+Please_enter_employeeId = "Veuillez saisir l'identifiant de l'employé";
+Email_Id = "Adresse mail";
+Please_enter_cardholderName = "Entrez le nom du titulaire de la carte.";
+Please_enter_cardNumber = "Saisir le numéro de la carte.";
+Please_enter_cardNo_atleast12char = "Entrez un numéro de carte d'au moins 12 caractères.";
+Please_enter_cvvCode = "Entrez le code CVV.";
+Please_enter_expiryMonth = "Entrez la date d'expiration";
+Please_enter_expiryYear =  "Entrez l'année d'expiration";
+Nikkos_Customer = "Client NIKKOS";
+Are_You_Sure_you_want_to_logout = "Êtes-vous sûr de vouloir vous déconnecter ?" ;
+Ride_has_ended = "La course est terminée";
+Ride_has_started = "Le course a commencé";
+Driver_has_arrived = "Votre chauffeur est arrivé!";
+Ride_canceled_bydriver = "Course annulée par le chauffeur";
+My_cards = "Mes cartes";
+Locations = "Adresses favorites";
+Not_Available = "Indisponible";
+Ok_key = "D'accord";
+Please_verify_email_bforLogin = "Vérifiez votre adresse mail avant de vous connecter.";
+You_cant_login_before_admin_approves_your_account = "Compte non actif";
+Please_contact_admin_forActivate = "Veuillez contacter le support technique pour activer";
+Enter_email_id = "Entrez une adresse mail";
+
+Confirm_Booking = "Confirmer la réservation";
+Title = "Titre";
+Code = "Code";
+Cancel_PopUP = "Voulez-vous annuler cette course? Des frais d'annulation peuvent s'appliquer.";
+No_Data = "Aucune donnée disponible en ce moment!";
+Book_For = "Livre pour >";
+Number_Passenger  = "Nombre de passagers";
+Surge  = "Majoration";
+Min_Fare  = "Tarif Min";
+ETA  = "ETA";
+Cancel_Trip  = "Annuler la course";
+Reason_Cancellation  = "Raisons du voyage d'annulation?";
+Done  = "Terminé";
+Thanks_Riding  = "Merci d'avoir choisi Nikkos";
+Final_Price  = "Prix final";
+Driver_Name  = "Nom du chauffeur";
+Trip_Date  = "Date de la course";
+Rate_Driver  = "Notez le chauffeur ";
+Comment  = "Commentaire";
+Save_Rating  = "Enregistrer";
+I_Would_Like_To_Pay  = "Je veux payer ";
+Selete_DateTime  = "Sélectionnez la date et l'heure";
+Cancel_Date  = "Annuler";
+Sign_Up = "S'inscrire";
+Pro_Customer = "Client-Pro ?";
+Title_Want_Pro_Customer = "Vous voulez Pro-Client?";
+Book_For_Now = "Commande immédiate";
+Book_For_Later = "Réservez plus tard";
+Pick_Up_Location = "Adresse de prise en charge ";
+Drop_Off_Location = "Adresse d'arrivée ";
+Do_You_Want_To_Delete_This_Card = "Voulez-vous supprimer cette carte?";
+Driver_Number = "Numéro du pilote";
+Driver_Name = "Nom du chauffeur";
+//Date_Time_Travelling = "Date/de prise en charge";
+//Date_Time_Booking = "Date/Temps de la réservation";
+select_your_ride = "Sélectionnez votre course";
+My_Ride = "Ma course";
+Cancel_Request = "Demande d’annulation";
+Driver_Name_plate_no = "Nom du chauffeur/Numéro de la plaque";
+Please_Enter_OTP = "Rentrez votre code OTP";
+Resend = "Resend";
+Verification = "vérification?";
+LATER = "plus tard";
+NOW = "à présent";
+Show_Ride_On_Map = "Afficher le tour sur la carte";
+Rate_Now = "Notez maintenant";
+Confirm = "Confirmer";
+Select_Address = "Sélectionnez le lieu";

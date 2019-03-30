@@ -1,0 +1,190 @@
+/*
+ Localizable.strings
+ NikkosCustomer
+ 
+ Created by Umang on 9/13/16.
+ Copyright © 2016 Dheeraj Kumar. All rights reserved.
+ */
+
+Login = "LOGIN" ;
+Enter_your_username = "Enter your username" ;
+Enter_your_password = "Enter your password";
+Forgot_Password = "Forgot Password?";
+Remember_Me = "Remember me" ;
+Language = "Language";
+New_user_Sign_Up = "New user Sign Up";
+Sign_In_With = "Sign In With";
+Register = "Register";
+Enter_your_email = "Enter your email";
+Enter_your_password = "Enter your password";
+Enter_your_confirm_password = "Enter your confirm password";
+Enter_your_phone_number = "Enter your phone number";
+Company_Name = "Company Name";
+Company_Id  = "Company Id";
+Employee_Id = "Employee Id";
+My_Profile = "My Profile";
+Home = "Home";
+Title_Credit_Amount = "Credit Amount";
+Add_Promo_Code = "ADD PROMO CODE";
+
+Trip_Id = "TripId:";
+Pickup_Address = "Pickup Address";
+DropOff_Address = "Drop Address";
+Ongoing_Trip = "Ongoing Trip";
+Completed_Trip = "Completed";
+Later_Trip = "Later Ride";
+Btn_Cancel = "Cancel";
+Trip_Status = "Trip Status:";
+//Add Card VC
+
+NAME = "Name";
+Card_Number = "Card number";
+CVV = "CVV";
+Month = "Month";
+Year = "Year";
+
+Contact_Us = "CONTACT US";
+Feel_Free = "Feel free to reach out with any queries you might have!";
+Enter_Your_Email = "Enter your email";
+Enter_Your_Phone = "Enter your phone number";
+
+Add_card = "Add Card";
+Card_Detail = "Card Details";
+Expiry_Date = "Expiry Date";
+AppName = "Onthego";
+Do_you_want_to_add_this_location_inFavorites = "Do you want to add this location in favourites?";
+YesKey = "Yes";
+NoKey = "No";
+Drop_update = "Drop Update";
+Enter_nickname_for_this_address = "Enter Nick Name for this address?";
+Submit = "SUBMIT";
+NickName = "NICK NAME";
+FAQ = "FAQ";
+Apple_products = "Apple Products";
+Contact_Support = "Contact Support" ;
+Free_rides = "Free Rides";
+Driver_not_available = "Currently there is no driver available, please try after sometime";
+from = "from";
+to = "to";
+Getting_address = "Getting Address....";
+Enter_Pickup_Location = "Please enter pickUp location.";
+Enter_dropoff_Location = "Please enter dropOff location.";
+
+Get_Free_Ride = "GET FREE RIDE";
+Send_Ref = "Share your invite code";
+
+Date_Time_Booking = "Date/Time of booking:";
+Date_Time_Travelling = "Date/Time of travelling:";
+Driver_Name = "Driver Name:";
+Company_Name = "Company Name (Driver):";
+Siret = "Siret:";
+Estimated_Cost = "Estimated Cost";
+Estimated_Distance = "Estimated Distance";
+No_Of_Persons = "No Of persons";
+Individual_Share = "Individual Share";
+
+Search_User = "Search User";
+Add_To_List = "Add to list";
+Close = "Close";
+
+Get_an_estimate = "GET AN ESTIMATE";
+Do_you_want_toDelete_favorite_address = "Do you really want to delete favourite address?";
+My_Trips = "My Trips" ;
+Are_you_sure_you_want_to_cancel_trips = "Are you sure you want to cancel this trip";
+Choose_Option = "Choose Option";
+Camera = "Camera";
+Photo_Library = "Photo Library";
+Cancel = "Cancel";
+Enter_promo_code = "Enter Promo Code.";
+Something_went_wrong = "OOPs something went wrong.";
+Please_wait_for_admin_mail_forActivation = "Please wait for admin verification.";
+Please_verify_your_email = "Please verify your email address.";
+Please_verify_your_PhoneNumber = "Please verify your phone number.";
+Please_contact_admin_toActivate = "Please contact admin for activate.";
+Share_cost = "Share Cost";
+NoClient_Register_With_This_Number = "No client register with this number.";
+Please_enter_Salutation = "Please select salutation.";
+Please_enter_name = "Please enter name.";
+Please_enter_name_lessThan15Char = "Please enter name less then 30 characters.";
+Please_enter_email = "Please enter email address.";
+Please_enter_correct_format_mail = "Please enter valid email address.";
+Please_enter_password = "Please enter password.";
+Please_enter_confirmPassword = "Please enter confirm password.";
+Password_Donotmatch = "Password & confirm password doesn't match.";
+Please_enter_Phone = "Please enter phone number.";
+Please_enter_code = "Please enter country code.";
+Please_enter_companyName = "Please enter company name.";
+Please_enter_companyId = "Please enter company id.";
+Please_enter_employeeId = "Please enter employee id.";
+Email_Id = "Email Id";
+Please_enter_cardholderName = "Please enter card holder name.";
+Please_enter_cardNumber = "Please enter card number.";
+Please_enter_cardNo_atleast12char = "Card number should be between 12 to 18 characters.";
+Please_enter_cvvCode = "Please enter cvv code.";
+Please_enter_expiryMonth = "Please enter expiry month.";
+Please_enter_expiryYear =  "Please enter expiry year.";
+Nikkos_Customer = "OnthegoCustomer!";
+Are_You_Sure_you_want_to_logout = "Are you sure you want to logout ?" ;
+Ride_has_ended = "Ride has ended.";
+Ride_has_started = "Ride has started.";
+Driver_has_arrived = "Driver has arrived. Please contact with driver.";
+Ride_canceled_bydriver = "Ride cancelled by driver";
+My_cards = "My Cards";
+Locations = "Locations";
+Not_Available = "NOT AVAILABLE";
+Ok_key = "Ok";
+Please_verify_email_bforLogin = "Please verify your email address.";
+You_cant_login_before_admin_approves_your_account = "You cannot login until administrator activate your account.";
+Please_contact_admin_forActivate = "Please contact admin for activate.";
+Enter_email_id = "Enter Email Id!";
+Code = "Code";
+Cancel_PopUP = "Are you sure, you want to cancel this ride? Cancellation charges may apply.";
+Title = "Title";
+No_Data = "No Data Available Right Now!";
+Confirm_Booking = "CONFIRM BOOKING";
+Book_For = "Book For >";
+Number_Passenger  = "Number of passenger";
+Surge  = "Surge";
+Min_Fare  = "Min Fare";
+ETA  = "ETA";
+Cancel_Trip  = "Cancel Trip";
+Reason_Cancellation  = "Reasons for cancellation trip?";
+Done  = "Done";
+Thanks_Riding  = "Thanks for riding with Us!";
+Final_Price  = "Final Price :";
+Driver_Name  = "Driver name:";
+Trip_Date  = "Trip date:";
+Rate_Driver  = "Rate the driver:";
+Comment  = "Comment:";
+Save_Rating  = "Save";
+I_Would_Like_To_Pay  = "I would like to pay?";
+Selete_DateTime  = "Select date and time";
+Cancel_Date  = "Cancel";
+Sign_Up = "Sign Up";
+Pro_Customer = "Pro-Client ?";
+coupon_code = "Enter referal code";
+Title_Want_Pro_Customer = "Want to be Pro-Customer?";
+Book_For_Now = "BOOK FOR NOW";
+Book_For_Later = "BOOK FOR LATER";
+Pick_Up_Location = "Pick-up Location";
+Drop_Off_Location = "Drop off Location";
+Do_You_Want_To_Delete_This_Card = "Do you want to delete this Card?";
+Driver_Number = "Driver Number";
+Driver_Name = "DriverName:";
+Date_Time_Travelling = "Date/Time of travelling";
+Date_Time_Booking = "Date/Time of booking";
+select_your_ride = "Select your ride";
+My_Ride = "My Ride";
+Cancel_Request = "Cancel Request";
+Driver_Name_plate_no = "Driver Name/Plate No.";
+Please_Enter_OTP = "Please enter OTP code";
+Resend = "Resend";
+Verification = "Verification";
+LATER = "LATER";
+NOW = "NOW";
+Show_Ride_On_Map = "Show ride on map";
+Rate_Now = "Rate now";
+Confirm = "Confirm";
+Select_Address = "Select address";
+//NikkosCustomerManager.GetLocalString("Enter_email_id")
+
